@@ -1,10 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Global Energy Consumption",
-    "fontSize": 18,
-    "anchor": "middle",
-    "align": "center"
+    "text": "GLOBAL ENERGY CONSUMPTION",
+    "fontSize": 18
   },
   "width": 800,
   "height": 400,

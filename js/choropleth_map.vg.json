@@ -62,17 +62,27 @@
           },
           "as": "geo"
         },
-        {"filter": "datum.Year == select_year"}
+        {"filter": "datum.Year == select_year"},
+        {
+          "aggregate": [
+            {"op": "min", "field": "total_consumption", "as": "min_total_consumption"},
+            {"op": "max", "field": "total_consumption", "as": "max_total_consumption"}
+          ]
+        },
+        {
+          "calculate": "(datum.total_consumption - min_total_consumption) / (max_total_consumption - min_total_consumption)",
+          "as": "normalized_consumption"
+        }
       ],
       "mark": {"type": "geoshape", "stroke": "white"},
       "encoding": {
         "shape": {"field": "geo", "type": "geojson"},
         "color": {
-          "field": "total_consumption",
+          "field": "normalized_consumption",
           "type": "quantitative",
           "scale": {"type": "quantize", "scheme": "yelloworangered"},
           "legend": {
-            "title": "Selected Energy Consumption Per. Capita (kWh)",
+            "title": "Energy Consumption Per. Capita (Quadrillion British Thermal Unit)",
             "titleLimit": 320,
             "titleFontSize": 13,
             "direction": "horizontal",

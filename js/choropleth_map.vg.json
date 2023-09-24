@@ -72,7 +72,7 @@
           "type": "quantitative",
           "scale": {"type": "quantize", "scheme": "yelloworangered"},
           "legend": {
-            "title": "Energy Consumption Per. Capita (Quadrillion British Thermal Unit)",
+            "title": "Energy Consumption Per. Capita (Sextillion kWh)",
             "titleLimit": 450,
             "titleFontSize": 14,
             "direction": "horizontal",

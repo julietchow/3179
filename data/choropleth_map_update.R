@@ -1,1 +1,1 @@
-map <- read.csv("choropleth.map.csv")
+map <- read.csv("choropleth_map.csv")

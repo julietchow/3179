@@ -75,7 +75,7 @@
           "type": "quantitative",
           "scale": {"type": "quantize", "scheme": "goldorange"},
           "legend": {
-            "title": "Energy Consumption Per. Capita (Sextillion kWh)",
+            "title": "Energy Consumption Per Capita (Sextillion kWh)",
             "titleLimit": 450,
             "titleFontSize": 14,
             "direction": "horizontal",

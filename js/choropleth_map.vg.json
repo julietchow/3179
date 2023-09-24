@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "GLOBAL ENERGY CONSUMPTION",
+    "text": "World Energy Consumption",
     "fontSize": 18
   },
   "width": 800,
@@ -37,14 +37,14 @@
         "url": "https://raw.githubusercontent.com/julietchow/3179/main/js/oceans.topojson",
         "format": {"type": "topojson", "feature": "oceans"}
       },
-      "mark": {"type": "geoshape", "fill": "skyblue"}
+      "mark": {"type": "geoshape", "fill": "lightblue"}
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/julietchow/3179/main/js/ne_110m_graticules_30.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
       },
-      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+      "mark": {"type": "geoshape", "fill": null, "stroke": "gray"}
     },
     {
       "data": {
@@ -73,7 +73,7 @@
         "color": {
           "field": "total_consumption",
           "type": "quantitative",
-          "scale": {"type": "quantize", "scheme": "yelloworangered"},
+          "scale": {"type": "quantize", "scheme": "goldorange"},
           "legend": {
             "title": "Energy Consumption Per. Capita (Sextillion kWh)",
             "titleLimit": 450,

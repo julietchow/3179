@@ -62,23 +62,13 @@
           },
           "as": "geo"
         },
-        {"filter": "datum.Year == select_year"},
-        {
-          "aggregate": [
-            {"op": "min", "field": "total_consumption", "as": "min_total_consumption"},
-            {"op": "max", "field": "total_consumption", "as": "max_total_consumption"}
-          ]
-        },
-        {
-          "calculate": "(datum.total_consumption - min_total_consumption) / (max_total_consumption - min_total_consumption)",
-          "as": "normalized_consumption"
-        }
+        {"filter": "datum.Year == select_year"}
       ],
       "mark": {"type": "geoshape", "stroke": "white"},
       "encoding": {
         "shape": {"field": "geo", "type": "geojson"},
         "color": {
-          "field": "normalized_consumption",
+          "field": "total_consumption",
           "type": "quantitative",
           "scale": {"type": "quantize", "scheme": "yelloworangered"},
           "legend": {

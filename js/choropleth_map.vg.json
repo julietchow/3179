@@ -4,7 +4,7 @@
   "width": 800,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map.csv"
+    "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map_new.csv"
   },
   "projection": {"type": "equalEarth"},
   "params":[
@@ -45,7 +45,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map.csv"
+        "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map_new.csv"
       },
       "transform": [
         {

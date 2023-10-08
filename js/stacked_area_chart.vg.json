@@ -59,13 +59,15 @@
         "color": {
           "field": "Energy Source",
           "scale": {
-              "scheme": "category20"
+              "domain": ["Coal","Natural Gas","Nuclear & Renewables","Petroleum"],
+              "range":["#fb3c04","#ff9646","#69ccbb","#3c55d1"]
+
           },
           "legend" : {"title": "Energy Sources (Sextillion kWh)"}
         },
         "tooltip": [
           {"field": "Year","type":"temporal","format":"%Y"},
-          {"field": "count","title":"Energy Consumption Per Capita (Sextillion kWh)","type":"quantitative","format":".2f"},
+          {"field": "count","title":"Energy Consumption","type":"quantitative","format":".2f"},
           {"field": "Energy Source"}
         ]
       }
@@ -82,7 +84,7 @@
           "title": "",
           "axis": null
         },
-        "color": {"value": "black"}
+        "color": {"value": "white"}
       }
   }
   ]

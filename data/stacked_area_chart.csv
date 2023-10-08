@@ -1,0 +1,617 @@
+"Energy Source","Continent","Year","count"
+"Coal","Africa",2000,3.755965386
+"Coal","Africa",2001,3.7435060009
+"Coal","Africa",2002,3.848335924
+"Coal","Africa",2003,4.0476140028
+"Coal","Africa",2004,4.074514853
+"Coal","Africa",2005,4.176881979
+"Coal","Africa",2006,4.258264903
+"Coal","Africa",2007,4.385577101
+"Coal","Africa",2008,4.351532638
+"Coal","Africa",2009,4.326141225
+"Coal","Africa",2010,4.40795629
+"Coal","Africa",2011,4.162462069
+"Coal","Africa",2012,4.325779777
+"Coal","Africa",2013,4.305212345
+"Coal","Africa",2014,4.347599639
+"Coal","Africa",2015,4.331505265
+"Coal","Africa",2016,4.367930432
+"Coal","Africa",2017,4.397090694
+"Coal","Africa",2018,4.26388272
+"Coal","Africa",2019,4.664265595
+"Coal","Africa",2020,4.589082136
+"Coal","Africa",2021,4.410927848
+"Coal","Asia & Oceania",2000,46.897637666
+"Coal","Asia & Oceania",2001,48.668666627
+"Coal","Asia & Oceania",2002,51.314514734
+"Coal","Asia & Oceania",2003,58.167660765
+"Coal","Asia & Oceania",2004,67.8299573287
+"Coal","Asia & Oceania",2005,75.6803190803
+"Coal","Asia & Oceania",2006,82.51941796
+"Coal","Asia & Oceania",2007,88.47878919603
+"Coal","Asia & Oceania",2008,91.851277628
+"Coal","Asia & Oceania",2009,98.406842255
+"Coal","Asia & Oceania",2010,108.3364923054
+"Coal","Asia & Oceania",2011,117.287864971
+"Coal","Asia & Oceania",2012,123.693003735
+"Coal","Asia & Oceania",2013,126.0072110935
+"Coal","Asia & Oceania",2014,126.1251639482
+"Coal","Asia & Oceania",2015,123.8892125125
+"Coal","Asia & Oceania",2016,121.9657462509
+"Coal","Asia & Oceania",2017,123.2409972307
+"Coal","Asia & Oceania",2018,125.9315872008
+"Coal","Asia & Oceania",2019,127.796734349
+"Coal","Asia & Oceania",2020,126.88950388348
+"Coal","Asia & Oceania",2021,132.7414296223
+"Coal","Central & South America",2000,0.7719477234
+"Coal","Central & South America",2001,0.744527149
+"Coal","Central & South America",2002,0.7104672471
+"Coal","Central & South America",2003,0.7463678442
+"Coal","Central & South America",2004,0.79842291027
+"Coal","Central & South America",2005,0.809622416
+"Coal","Central & South America",2006,0.83686773
+"Coal","Central & South America",2007,0.8853785181
+"Coal","Central & South America",2008,0.8822391176
+"Coal","Central & South America",2009,0.8087135273
+"Coal","Central & South America",2010,0.961701208
+"Coal","Central & South America",2011,1.045631165
+"Coal","Central & South America",2012,1.086029572
+"Coal","Central & South America",2013,1.19373247
+"Coal","Central & South America",2014,1.290831657
+"Coal","Central & South America",2015,1.30627678
+"Coal","Central & South America",2016,1.289718376
+"Coal","Central & South America",2017,1.318927313
+"Coal","Central & South America",2018,1.280978191
+"Coal","Central & South America",2019,1.2942472744
+"Coal","Central & South America",2020,1.1663626617
+"Coal","Central & South America",2021,1.2698765017
+"Coal","Eurasia",2000,8.27430222
+"Coal","Eurasia",2001,8.24446867
+"Coal","Eurasia",2002,8.154581411
+"Coal","Eurasia",2003,8.534886274
+"Coal","Eurasia",2004,8.328228514
+"Coal","Eurasia",2005,8.243159211
+"Coal","Eurasia",2006,8.558009066
+"Coal","Eurasia",2007,8.540196492
+"Coal","Eurasia",2008,9.242923631
+"Coal","Eurasia",2009,8.098508031
+"Coal","Eurasia",2010,8.25731025
+"Coal","Eurasia",2011,8.823136363
+"Coal","Eurasia",2012,9.145247234
+"Coal","Eurasia",2013,8.554500882
+"Coal","Eurasia",2014,7.981645958
+"Coal","Eurasia",2015,8.071659714
+"Coal","Eurasia",2016,7.886792685
+"Coal","Eurasia",2017,7.718325351
+"Coal","Eurasia",2018,8.214131877
+"Coal","Eurasia",2019,8.252576619
+"Coal","Eurasia",2020,7.742383076
+"Coal","Eurasia",2021,8.089093214
+"Coal","Europe",2000,14.612477193
+"Coal","Europe",2001,14.500616248
+"Coal","Europe",2002,14.3906041848
+"Coal","Europe",2003,14.9331709672
+"Coal","Europe",2004,14.839446903
+"Coal","Europe",2005,14.549545409
+"Coal","Europe",2006,14.753796173
+"Coal","Europe",2007,15.048520252
+"Coal","Europe",2008,14.069300046
+"Coal","Europe",2009,12.757519084
+"Coal","Europe",2010,13.11485126
+"Coal","Europe",2011,13.4085055016
+"Coal","Europe",2012,13.9646572059
+"Coal","Europe",2013,13.560427797
+"Coal","Europe",2014,12.94215672486
+"Coal","Europe",2015,12.7346849452
+"Coal","Europe",2016,11.999272031
+"Coal","Europe",2017,12.064694827
+"Coal","Europe",2018,11.52097248347
+"Coal","Europe",2019,9.7161559224
+"Coal","Europe",2020,8.261264632
+"Coal","Europe",2021,8.79481911
+"Coal","Middle East",2000,0.307937659
+"Coal","Middle East",2001,0.340758765
+"Coal","Middle East",2002,0.359841852
+"Coal","Middle East",2003,0.370540083
+"Coal","Middle East",2004,0.373590747
+"Coal","Middle East",2005,0.374915142
+"Coal","Middle East",2006,0.37184599
+"Coal","Middle East",2007,0.3934859558
+"Coal","Middle East",2008,0.379232569
+"Coal","Middle East",2009,0.368979863
+"Coal","Middle East",2010,0.376447144
+"Coal","Middle East",2011,0.407990893
+"Coal","Middle East",2012,0.460607686
+"Coal","Middle East",2013,0.421348734
+"Coal","Middle East",2014,0.407209233
+"Coal","Middle East",2015,0.386605948
+"Coal","Middle East",2016,0.36058975
+"Coal","Middle East",2017,0.313983366
+"Coal","Middle East",2018,0.307974784
+"Coal","Middle East",2019,0.261032537
+"Coal","Middle East",2020,0.258266361
+"Coal","Middle East",2021,0.270488776
+"Coal","North America",2000,24.074733291
+"Coal","North America",2001,23.522852601
+"Coal","North America",2002,23.473729685
+"Coal","North America",2003,23.887234891
+"Coal","North America",2004,23.994346822
+"Coal","North America",2005,24.488683356
+"Coal","North America",2006,24.171587519
+"Coal","North America",2007,24.385780228
+"Coal","North America",2008,23.867958674
+"Coal","North America",2009,21.016930744
+"Coal","North America",2010,22.268019462
+"Coal","North America",2011,21.064800227
+"Coal","North America",2012,18.688968898
+"Coal","North America",2013,19.316617669
+"Coal","North America",2014,19.265361085
+"Coal","North America",2015,16.824335162
+"Coal","North America",2016,15.363952723
+"Coal","North America",2017,15.055226232
+"Coal","North America",2018,14.287803255
+"Coal","North America",2019,12.206418832
+"Coal","North America",2020,9.850114668
+"Coal","North America",2021,11.143832003
+"Natural Gas","Africa",2000,2.202082717
+"Natural Gas","Africa",2001,2.461631015
+"Natural Gas","Africa",2002,2.544445396
+"Natural Gas","Africa",2003,2.76461747
+"Natural Gas","Africa",2004,2.85028281
+"Natural Gas","Africa",2005,3.300960052
+"Natural Gas","Africa",2006,3.479718712
+"Natural Gas","Africa",2007,3.5204664
+"Natural Gas","Africa",2008,3.774085611
+"Natural Gas","Africa",2009,3.560169
+"Natural Gas","Africa",2010,3.749137552
+"Natural Gas","Africa",2011,4.470521682
+"Natural Gas","Africa",2012,4.7630662
+"Natural Gas","Africa",2013,4.749412184
+"Natural Gas","Africa",2014,4.893730571
+"Natural Gas","Africa",2015,4.924789178
+"Natural Gas","Africa",2016,5.05222114
+"Natural Gas","Africa",2017,5.394743004
+"Natural Gas","Africa",2018,5.700176692
+"Natural Gas","Africa",2019,5.741337868
+"Natural Gas","Africa",2020,5.594589772
+"Natural Gas","Africa",2021,5.9661691
+"Natural Gas","Asia & Oceania",2000,10.746385298
+"Natural Gas","Asia & Oceania",2001,10.787255216
+"Natural Gas","Asia & Oceania",2002,11.900971683
+"Natural Gas","Asia & Oceania",2003,12.561311892
+"Natural Gas","Asia & Oceania",2004,13.146734403
+"Natural Gas","Asia & Oceania",2005,14.365889921
+"Natural Gas","Asia & Oceania",2006,16.05854374
+"Natural Gas","Asia & Oceania",2007,17.637431755
+"Natural Gas","Asia & Oceania",2008,18.295342508
+"Natural Gas","Asia & Oceania",2009,19.260748948
+"Natural Gas","Asia & Oceania",2010,21.615047632
+"Natural Gas","Asia & Oceania",2011,23.112959679
+"Natural Gas","Asia & Oceania",2012,24.263667545
+"Natural Gas","Asia & Oceania",2013,25.004914449
+"Natural Gas","Asia & Oceania",2014,25.769019295
+"Natural Gas","Asia & Oceania",2015,25.856670567
+"Natural Gas","Asia & Oceania",2016,27.134410627
+"Natural Gas","Asia & Oceania",2017,28.749936775
+"Natural Gas","Asia & Oceania",2018,30.886496145
+"Natural Gas","Asia & Oceania",2019,31.653045577
+"Natural Gas","Asia & Oceania",2020,31.599642124
+"Natural Gas","Asia & Oceania",2021,33.530174844
+"Natural Gas","Central & South America",2000,3.568763827
+"Natural Gas","Central & South America",2001,3.834447751
+"Natural Gas","Central & South America",2002,3.802782874
+"Natural Gas","Central & South America",2003,3.999836371
+"Natural Gas","Central & South America",2004,4.35879869
+"Natural Gas","Central & South America",2005,4.470181983
+"Natural Gas","Central & South America",2006,4.847823742
+"Natural Gas","Central & South America",2007,4.687183558
+"Natural Gas","Central & South America",2008,4.921135406
+"Natural Gas","Central & South America",2009,4.624883729
+"Natural Gas","Central & South America",2010,5.152788126
+"Natural Gas","Central & South America",2011,5.334485646
+"Natural Gas","Central & South America",2012,5.695193276
+"Natural Gas","Central & South America",2013,6.005233821
+"Natural Gas","Central & South America",2014,6.117385011
+"Natural Gas","Central & South America",2015,6.238739844
+"Natural Gas","Central & South America",2016,5.93988657
+"Natural Gas","Central & South America",2017,5.907655661
+"Natural Gas","Central & South America",2018,5.871648828
+"Natural Gas","Central & South America",2019,5.868798402
+"Natural Gas","Central & South America",2020,5.327211507
+"Natural Gas","Central & South America",2021,5.7600535
+"Natural Gas","Eurasia",2000,19.631926269
+"Natural Gas","Eurasia",2001,19.47052167
+"Natural Gas","Eurasia",2002,20.457314172
+"Natural Gas","Eurasia",2003,21.357300269
+"Natural Gas","Eurasia",2004,21.761966414
+"Natural Gas","Eurasia",2005,21.589642144
+"Natural Gas","Eurasia",2006,22.485250993
+"Natural Gas","Eurasia",2007,22.880226271
+"Natural Gas","Eurasia",2008,23.227235103
+"Natural Gas","Eurasia",2009,19.46136756
+"Natural Gas","Eurasia",2010,22.912742174
+"Natural Gas","Eurasia",2011,24.198506474
+"Natural Gas","Eurasia",2012,23.70228651
+"Natural Gas","Eurasia",2013,23.127866564
+"Natural Gas","Eurasia",2014,22.933508486
+"Natural Gas","Eurasia",2015,22.114351603
+"Natural Gas","Eurasia",2016,21.814017338
+"Natural Gas","Eurasia",2017,22.219492433
+"Natural Gas","Eurasia",2018,23.130691077
+"Natural Gas","Eurasia",2019,22.655767858
+"Natural Gas","Eurasia",2020,22.006881835
+"Natural Gas","Eurasia",2021,24.250669548
+"Natural Gas","Europe",2000,17.890204374
+"Natural Gas","Europe",2001,18.467321898
+"Natural Gas","Europe",2002,18.762246199
+"Natural Gas","Europe",2003,19.438291203
+"Natural Gas","Europe",2004,20.266531104
+"Natural Gas","Europe",2005,20.764372933
+"Natural Gas","Europe",2006,20.776253241
+"Natural Gas","Europe",2007,20.63126749
+"Natural Gas","Europe",2008,21.133766988
+"Natural Gas","Europe",2009,19.869559237
+"Natural Gas","Europe",2010,21.491251336
+"Natural Gas","Europe",2011,19.939996704
+"Natural Gas","Europe",2012,19.352784939
+"Natural Gas","Europe",2013,19.097156087
+"Natural Gas","Europe",2014,17.370691754
+"Natural Gas","Europe",2015,17.937081288
+"Natural Gas","Europe",2016,18.96447574
+"Natural Gas","Europe",2017,19.918307354
+"Natural Gas","Europe",2018,19.524746472
+"Natural Gas","Europe",2019,19.783584622
+"Natural Gas","Europe",2020,19.062354622
+"Natural Gas","Europe",2021,20.180109753
+"Natural Gas","Middle East",2000,7.14446782
+"Natural Gas","Middle East",2001,7.356114147
+"Natural Gas","Middle East",2002,8.04721881
+"Natural Gas","Middle East",2003,8.393184325
+"Natural Gas","Middle East",2004,9.030526138
+"Natural Gas","Middle East",2005,10.323394163
+"Natural Gas","Middle East",2006,10.780148482
+"Natural Gas","Middle East",2007,11.22643095
+"Natural Gas","Middle East",2008,12.260350257
+"Natural Gas","Middle East",2009,13.144715636
+"Natural Gas","Middle East",2010,14.026360808
+"Natural Gas","Middle East",2011,14.886868856
+"Natural Gas","Middle East",2012,15.562079235
+"Natural Gas","Middle East",2013,16.129604852
+"Natural Gas","Middle East",2014,16.852048811
+"Natural Gas","Middle East",2015,17.801200886
+"Natural Gas","Middle East",2016,18.478058264
+"Natural Gas","Middle East",2017,19.357300584
+"Natural Gas","Middle East",2018,19.840497946
+"Natural Gas","Middle East",2019,20.585974244
+"Natural Gas","Middle East",2020,20.735115071
+"Natural Gas","Middle East",2021,21.339373038
+"Natural Gas","North America",2000,28.421020384
+"Natural Gas","North America",2001,27.554063308
+"Natural Gas","North America",2002,28.545223555
+"Natural Gas","North America",2003,28.272642956
+"Natural Gas","North America",2004,28.379970096
+"Natural Gas","North America",2005,27.792464496
+"Natural Gas","North America",2006,27.884383982
+"Natural Gas","North America",2007,29.137933962
+"Natural Gas","North America",2008,29.260849188
+"Natural Gas","North America",2009,29.227869564
+"Natural Gas","North America",2010,30.47655172
+"Natural Gas","North America",2011,31.049147064
+"Natural Gas","North America",2012,32.463569928
+"Natural Gas","North America",2013,33.540488201
+"Natural Gas","North America",2014,34.208740795
+"Natural Gas","North America",2015,35.178859677
+"Natural Gas","North America",2016,35.316159526
+"Natural Gas","North America",2017,35.26228512
+"Natural Gas","North America",2018,38.815387718
+"Natural Gas","North America",2019,39.849727729
+"Natural Gas","North America",2020,38.965982709
+"Natural Gas","North America",2021,39.323497643
+"Nuclear & Renewables","Africa",2000,0.920269721
+"Nuclear & Renewables","Africa",2001,0.97962715
+"Nuclear & Renewables","Africa",2002,1.005402152
+"Nuclear & Renewables","Africa",2003,0.996855504
+"Nuclear & Renewables","Africa",2004,1.050366258
+"Nuclear & Renewables","Africa",2005,1.045878307
+"Nuclear & Renewables","Africa",2006,1.059142063
+"Nuclear & Renewables","Africa",2007,1.115780126
+"Nuclear & Renewables","Africa",2008,1.132779556
+"Nuclear & Renewables","Africa",2009,1.150665413
+"Nuclear & Renewables","Africa",2010,1.288895136
+"Nuclear & Renewables","Africa",2011,1.30224546
+"Nuclear & Renewables","Africa",2012,1.29061517
+"Nuclear & Renewables","Africa",2013,1.370823227
+"Nuclear & Renewables","Africa",2014,1.472139822
+"Nuclear & Renewables","Africa",2015,1.426946344
+"Nuclear & Renewables","Africa",2016,1.509126714
+"Nuclear & Renewables","Africa",2017,1.594468216
+"Nuclear & Renewables","Africa",2018,1.655724828
+"Nuclear & Renewables","Africa",2019,1.721495854
+"Nuclear & Renewables","Africa",2020,1.710445702
+"Nuclear & Renewables","Africa",2021,1.809898778
+"Nuclear & Renewables","Asia & Oceania",2000,10.267492758
+"Nuclear & Renewables","Asia & Oceania",2001,10.988960289
+"Nuclear & Renewables","Asia & Oceania",2002,10.986047489
+"Nuclear & Renewables","Asia & Oceania",2003,10.892541706
+"Nuclear & Renewables","Asia & Oceania",2004,12.173330869
+"Nuclear & Renewables","Asia & Oceania",2005,13.108244271
+"Nuclear & Renewables","Asia & Oceania",2006,13.958463214
+"Nuclear & Renewables","Asia & Oceania",2007,14.107578286
+"Nuclear & Renewables","Asia & Oceania",2008,15.29345147
+"Nuclear & Renewables","Asia & Oceania",2009,16.317643466
+"Nuclear & Renewables","Asia & Oceania",2010,18.109186357
+"Nuclear & Renewables","Asia & Oceania",2011,17.723673562
+"Nuclear & Renewables","Asia & Oceania",2012,18.274246278
+"Nuclear & Renewables","Asia & Oceania",2013,19.925965083
+"Nuclear & Renewables","Asia & Oceania",2014,22.172538232
+"Nuclear & Renewables","Asia & Oceania",2015,23.317755946
+"Nuclear & Renewables","Asia & Oceania",2016,25.589724553
+"Nuclear & Renewables","Asia & Oceania",2017,27.862084417
+"Nuclear & Renewables","Asia & Oceania",2018,30.415886032
+"Nuclear & Renewables","Asia & Oceania",2019,32.796724853
+"Nuclear & Renewables","Asia & Oceania",2020,34.611789938
+"Nuclear & Renewables","Asia & Oceania",2021,37.429926298
+"Nuclear & Renewables","Central & South America",2000,5.882389931
+"Nuclear & Renewables","Central & South America",2001,5.729629376
+"Nuclear & Renewables","Central & South America",2002,5.905742816
+"Nuclear & Renewables","Central & South America",2003,6.158461708
+"Nuclear & Renewables","Central & South America",2004,6.303647784
+"Nuclear & Renewables","Central & South America",2005,6.584576875
+"Nuclear & Renewables","Central & South America",2006,6.885924182
+"Nuclear & Renewables","Central & South America",2007,7.105526568
+"Nuclear & Renewables","Central & South America",2008,7.162529309
+"Nuclear & Renewables","Central & South America",2009,7.273943623
+"Nuclear & Renewables","Central & South America",2010,7.434106055
+"Nuclear & Renewables","Central & South America",2011,7.881324629
+"Nuclear & Renewables","Central & South America",2012,7.647321755
+"Nuclear & Renewables","Central & South America",2013,7.621856633
+"Nuclear & Renewables","Central & South America",2014,7.344934769
+"Nuclear & Renewables","Central & South America",2015,7.39696668
+"Nuclear & Renewables","Central & South America",2016,7.669414169
+"Nuclear & Renewables","Central & South America",2017,7.862966707
+"Nuclear & Renewables","Central & South America",2018,8.079620848
+"Nuclear & Renewables","Central & South America",2019,7.907464661
+"Nuclear & Renewables","Central & South America",2020,7.959814982
+"Nuclear & Renewables","Central & South America",2021,7.934203699
+"Nuclear & Renewables","Eurasia",2000,4.402523271
+"Nuclear & Renewables","Eurasia",2001,4.548068325
+"Nuclear & Renewables","Eurasia",2002,4.52781626
+"Nuclear & Renewables","Eurasia",2003,4.552384577
+"Nuclear & Renewables","Eurasia",2004,4.736929195
+"Nuclear & Renewables","Eurasia",2005,4.800109199
+"Nuclear & Renewables","Eurasia",2006,4.864524722
+"Nuclear & Renewables","Eurasia",2007,4.935160249
+"Nuclear & Renewables","Eurasia",2008,4.761910492
+"Nuclear & Renewables","Eurasia",2009,4.805936177
+"Nuclear & Renewables","Eurasia",2010,4.910143442
+"Nuclear & Renewables","Eurasia",2011,4.868586336
+"Nuclear & Renewables","Eurasia",2012,4.871468403
+"Nuclear & Renewables","Eurasia",2013,4.935792436
+"Nuclear & Renewables","Eurasia",2014,5.027148054
+"Nuclear & Renewables","Eurasia",2015,5.076825145
+"Nuclear & Renewables","Eurasia",2016,5.165307558
+"Nuclear & Renewables","Eurasia",2017,5.316230136
+"Nuclear & Renewables","Eurasia",2018,5.229866011
+"Nuclear & Renewables","Eurasia",2019,5.321797438
+"Nuclear & Renewables","Eurasia",2020,5.694856401
+"Nuclear & Renewables","Eurasia",2021,5.970205275
+"Nuclear & Renewables","Europe",2000,16.708637035
+"Nuclear & Renewables","Europe",2001,17.253973874
+"Nuclear & Renewables","Europe",2002,16.928723667
+"Nuclear & Renewables","Europe",2003,16.699403385
+"Nuclear & Renewables","Europe",2004,17.249307491
+"Nuclear & Renewables","Europe",2005,17.272117587
+"Nuclear & Renewables","Europe",2006,17.303900289
+"Nuclear & Renewables","Europe",2007,17.113151023
+"Nuclear & Renewables","Europe",2008,17.697819785
+"Nuclear & Renewables","Europe",2009,17.340498255
+"Nuclear & Renewables","Europe",2010,18.565263091
+"Nuclear & Renewables","Europe",2011,18.31254297
+"Nuclear & Renewables","Europe",2012,18.940583509
+"Nuclear & Renewables","Europe",2013,19.84777561
+"Nuclear & Renewables","Europe",2014,20.101149099
+"Nuclear & Renewables","Europe",2015,20.327058977
+"Nuclear & Renewables","Europe",2016,20.2740914
+"Nuclear & Renewables","Europe",2017,20.22708114
+"Nuclear & Renewables","Europe",2018,21.002279085
+"Nuclear & Renewables","Europe",2019,21.174210678
+"Nuclear & Renewables","Europe",2020,21.150562226
+"Nuclear & Renewables","Europe",2021,21.482773617
+"Nuclear & Renewables","Middle East",2000,0.095748363
+"Nuclear & Renewables","Middle East",2001,0.111470232
+"Nuclear & Renewables","Middle East",2002,0.13371585
+"Nuclear & Renewables","Middle East",2003,0.177337921
+"Nuclear & Renewables","Middle East",2004,0.188203989
+"Nuclear & Renewables","Middle East",2005,0.302379406
+"Nuclear & Renewables","Middle East",2006,0.320282277
+"Nuclear & Renewables","Middle East",2007,0.305078038
+"Nuclear & Renewables","Middle East",2008,0.141432345
+"Nuclear & Renewables","Middle East",2009,0.161001149
+"Nuclear & Renewables","Middle East",2010,0.213996004
+"Nuclear & Renewables","Middle East",2011,0.239236384
+"Nuclear & Renewables","Middle East",2012,0.2637184
+"Nuclear & Renewables","Middle East",2013,0.318063733
+"Nuclear & Renewables","Middle East",2014,0.279528813
+"Nuclear & Renewables","Middle East",2015,0.263325347
+"Nuclear & Renewables","Middle East",2016,0.324225287
+"Nuclear & Renewables","Middle East",2017,0.308977934
+"Nuclear & Renewables","Middle East",2018,0.373215303
+"Nuclear & Renewables","Middle East",2019,0.483655948
+"Nuclear & Renewables","Middle East",2020,0.474659319
+"Nuclear & Renewables","Middle East",2021,0.473106045
+"Nuclear & Renewables","North America",2000,18.85354765
+"Nuclear & Renewables","North America",2001,17.923465014
+"Nuclear & Renewables","North America",2002,18.67893234
+"Nuclear & Renewables","North America",2003,18.573824884
+"Nuclear & Renewables","North America",2004,19.152658316
+"Nuclear & Renewables","North America",2005,19.473166275
+"Nuclear & Renewables","North America",2006,19.913098511
+"Nuclear & Renewables","North America",2007,20.052873906
+"Nuclear & Renewables","North America",2008,20.858716939
+"Nuclear & Renewables","North America",2009,20.960666788
+"Nuclear & Renewables","North America",2010,21.666339467
+"Nuclear & Renewables","North America",2011,22.718985368
+"Nuclear & Renewables","North America",2012,22.080412781
+"Nuclear & Renewables","North America",2013,23.136434229
+"Nuclear & Renewables","North America",2014,23.628977278
+"Nuclear & Renewables","North America",2015,23.449994895
+"Nuclear & Renewables","North America",2016,24.244231427
+"Nuclear & Renewables","North America",2017,25.096743904
+"Nuclear & Renewables","North America",2018,25.322608603
+"Nuclear & Renewables","North America",2019,25.284354903
+"Nuclear & Renewables","North America",2020,25.159771704
+"Nuclear & Renewables","North America",2021,25.772778881
+"Petroleum","Africa",2000,5.198636871
+"Petroleum","Africa",2001,5.339246933
+"Petroleum","Africa",2002,5.515404855
+"Petroleum","Africa",2003,5.627361954
+"Petroleum","Africa",2004,5.896128018
+"Petroleum","Africa",2005,6.11620369
+"Petroleum","Africa",2006,6.119941679
+"Petroleum","Africa",2007,6.425683249
+"Petroleum","Africa",2008,6.874124504
+"Petroleum","Africa",2009,7.092416974
+"Petroleum","Africa",2010,7.459832455
+"Petroleum","Africa",2011,7.411635071
+"Petroleum","Africa",2012,7.680326859
+"Petroleum","Africa",2013,8.218558691
+"Petroleum","Africa",2014,8.546511122
+"Petroleum","Africa",2015,8.541806548
+"Petroleum","Africa",2016,8.432139195
+"Petroleum","Africa",2017,8.587922006
+"Petroleum","Africa",2018,8.685934636
+"Petroleum","Africa",2019,8.754598754
+"Petroleum","Africa",2020,7.958764737
+"Petroleum","Africa",2021,8.063199947
+"Petroleum","Asia & Oceania",2000,43.546027942
+"Petroleum","Asia & Oceania",2001,43.718134656
+"Petroleum","Asia & Oceania",2002,44.816224249
+"Petroleum","Asia & Oceania",2003,46.802185658
+"Petroleum","Asia & Oceania",2004,49.908455831
+"Petroleum","Asia & Oceania",2005,50.321356273
+"Petroleum","Asia & Oceania",2006,51.652694632
+"Petroleum","Asia & Oceania",2007,53.380717454
+"Petroleum","Asia & Oceania",2008,53.03203886
+"Petroleum","Asia & Oceania",2009,53.608389534
+"Petroleum","Asia & Oceania",2010,56.445638748
+"Petroleum","Asia & Oceania",2011,57.943053987
+"Petroleum","Asia & Oceania",2012,60.403784245
+"Petroleum","Asia & Oceania",2013,61.620354768
+"Petroleum","Asia & Oceania",2014,62.834952935
+"Petroleum","Asia & Oceania",2015,64.745740552
+"Petroleum","Asia & Oceania",2016,67.240394785
+"Petroleum","Asia & Oceania",2017,69.103963754
+"Petroleum","Asia & Oceania",2018,70.316237759
+"Petroleum","Asia & Oceania",2019,69.912803637
+"Petroleum","Asia & Oceania",2020,67.225738806
+"Petroleum","Asia & Oceania",2021,70.565102057
+"Petroleum","Central & South America",2000,10.628946794
+"Petroleum","Central & South America",2001,10.751012552
+"Petroleum","Central & South America",2002,10.630445125
+"Petroleum","Central & South America",2003,10.566229447
+"Petroleum","Central & South America",2004,11.131166653
+"Petroleum","Central & South America",2005,11.375981839
+"Petroleum","Central & South America",2006,11.77208914
+"Petroleum","Central & South America",2007,12.272502324
+"Petroleum","Central & South America",2008,12.857848904
+"Petroleum","Central & South America",2009,12.681447843
+"Petroleum","Central & South America",2010,13.265228834
+"Petroleum","Central & South America",2011,13.465841228
+"Petroleum","Central & South America",2012,14.102934258
+"Petroleum","Central & South America",2013,14.14356156
+"Petroleum","Central & South America",2014,14.443454806
+"Petroleum","Central & South America",2015,14.253761112
+"Petroleum","Central & South America",2016,14.059835531
+"Petroleum","Central & South America",2017,13.756341612
+"Petroleum","Central & South America",2018,13.488138298
+"Petroleum","Central & South America",2019,13.371866213
+"Petroleum","Central & South America",2020,11.368403512
+"Petroleum","Central & South America",2021,11.955599193
+"Petroleum","Eurasia",2000,7.39748807
+"Petroleum","Eurasia",2001,7.371789349
+"Petroleum","Eurasia",2002,7.393444414
+"Petroleum","Eurasia",2003,7.484979548
+"Petroleum","Eurasia",2004,7.486178307
+"Petroleum","Eurasia",2005,7.516250581
+"Petroleum","Eurasia",2006,7.773917017
+"Petroleum","Eurasia",2007,7.769759251
+"Petroleum","Eurasia",2008,8.073197866
+"Petroleum","Eurasia",2009,7.713094854
+"Petroleum","Eurasia",2010,8.098723265
+"Petroleum","Eurasia",2011,8.562242977
+"Petroleum","Eurasia",2012,8.582076233
+"Petroleum","Eurasia",2013,8.825923485
+"Petroleum","Eurasia",2014,9.319017101
+"Petroleum","Eurasia",2015,9.1508125
+"Petroleum","Eurasia",2016,9.355819672
+"Petroleum","Eurasia",2017,9.167876019
+"Petroleum","Eurasia",2018,9.196416713
+"Petroleum","Eurasia",2019,9.552271911
+"Petroleum","Eurasia",2020,10.340525534
+"Petroleum","Eurasia",2021,9.419053676
+"Petroleum","Europe",2000,33.305107521
+"Petroleum","Europe",2001,33.719673889
+"Petroleum","Europe",2002,33.709196309
+"Petroleum","Europe",2003,34.020727845
+"Petroleum","Europe",2004,34.291228196
+"Petroleum","Europe",2005,34.396010097
+"Petroleum","Europe",2006,34.551504535
+"Petroleum","Europe",2007,34.005509174
+"Petroleum","Europe",2008,33.81498632
+"Petroleum","Europe",2009,32.081197038
+"Petroleum","Europe",2010,31.986215153
+"Petroleum","Europe",2011,31.072211705
+"Petroleum","Europe",2012,30.17513129
+"Petroleum","Europe",2013,29.588446775
+"Petroleum","Europe",2014,29.355103475
+"Petroleum","Europe",2015,30.014666579
+"Petroleum","Europe",2016,30.507575542
+"Petroleum","Europe",2017,31.237023185
+"Petroleum","Europe",2018,30.960429279
+"Petroleum","Europe",2019,30.91491746
+"Petroleum","Europe",2020,26.986477206
+"Petroleum","Europe",2021,28.447531766
+"Petroleum","Middle East",2000,10.210328609
+"Petroleum","Middle East",2001,10.67151663
+"Petroleum","Middle East",2002,10.932287751
+"Petroleum","Middle East",2003,11.039894486
+"Petroleum","Middle East",2004,11.817794991
+"Petroleum","Middle East",2005,12.492742603
+"Petroleum","Middle East",2006,13.058497841
+"Petroleum","Middle East",2007,14.006150438
+"Petroleum","Middle East",2008,14.833427999
+"Petroleum","Middle East",2009,15.069394588
+"Petroleum","Middle East",2010,16.327514442
+"Petroleum","Middle East",2011,16.878709208
+"Petroleum","Middle East",2012,17.210957798
+"Petroleum","Middle East",2013,17.490394358
+"Petroleum","Middle East",2014,17.904941957
+"Petroleum","Middle East",2015,16.130071029
+"Petroleum","Middle East",2016,18.342570863
+"Petroleum","Middle East",2017,18.446504071
+"Petroleum","Middle East",2018,18.406474883
+"Petroleum","Middle East",2019,17.542792165
+"Petroleum","Middle East",2020,14.013163198
+"Petroleum","Middle East",2021,14.040477032
+"Petroleum","North America",2000,46.38459011
+"Petroleum","North America",2001,46.280840629
+"Petroleum","North America",2002,46.351861592
+"Petroleum","North America",2003,47.223927813
+"Petroleum","North America",2004,49.032860389
+"Petroleum","North America",2005,49.424271479
+"Petroleum","North America",2006,49.061231336
+"Petroleum","North America",2007,49.132486308
+"Petroleum","North America",2008,46.577295946
+"Petroleum","North America",2009,44.422305883
+"Petroleum","North America",2010,45.405130086
+"Petroleum","North America",2011,44.913295891
+"Petroleum","North America",2012,44.181603711
+"Petroleum","North America",2013,44.749846702
+"Petroleum","North America",2014,44.860354062
+"Petroleum","North America",2015,45.652688823
+"Petroleum","North America",2016,46.279689157
+"Petroleum","North America",2017,46.502664994
+"Petroleum","North America",2018,47.147494423
+"Petroleum","North America",2019,47.180884121
+"Petroleum","North America",2020,41.070380374
+"Petroleum","North America",2021,44.223188795

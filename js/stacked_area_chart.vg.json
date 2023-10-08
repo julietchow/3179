@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300, "height": 200,
+    "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.json"},
+    "mark": "area",
+    "encoding": {
+        "x": {
+            "timeUnit": "year", "field": "Year",
+            "axis": {"format": "%Y", "labelAngle": 0},
+            "title": "Year"
+          },
+      "y": {
+        "aggregate": "sum", "field": "count"
+      },
+      "color": {
+        "field": "Energy Source",
+        "scale": {
+            "scheme": "category20", 
+            "domain": ["Coal", "Natural Gas", "Nuclear & Renewables","Petroleum"] }
+      },
+      "tooltip": [
+        {"field": "Year","type": "temporal", "title": "Year"},
+        {"field": "count","aggregate": "sum","type": "quantitative"}
+      ]
+    }
+  }

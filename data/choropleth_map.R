@@ -24,10 +24,6 @@ reshaped_coal <- coal %>%
   pivot_longer(cols = -c(Continent, Country), names_to = "Year", values_to = "coal_consumption") %>%
   mutate(Year = as.numeric(Year))
 
-# Omit the "Continent" column
-reshaped_coal <- reshaped_coal %>%
-  select(-Continent)
-
 # Clean up the "Country" column to remove leading spaces
 reshaped_coal$Country <- str_trim(reshaped_coal$Country, side = "both")
 
@@ -53,10 +49,6 @@ ng <- ng %>%
 reshaped_ng <- ng %>%
   pivot_longer(cols = -c(Continent, Country), names_to = "Year", values_to = "ng_consumption") %>%
   mutate(Year = as.numeric(Year))
-
-# Omit the "Continent" column
-reshaped_ng <- reshaped_ng %>%
-  select(-Continent)
 
 reshaped_ng <- as.data.frame(reshaped_ng)
 reshaped_ng
@@ -91,10 +83,6 @@ reshaped_nr <- nr %>%
   pivot_longer(cols = -c(Continent, Country), names_to = "Year", values_to = "nr_consumption") %>%
   mutate(Year = as.numeric(Year))
 
-# Omit the "Continent" column
-reshaped_nr <- reshaped_nr %>%
-  select(-Continent)
-
 reshaped_nr <- as.data.frame(reshaped_nr)
 
 # Merge the last column of reshaped_nr into final_table based on "Country" and "Year"
@@ -123,10 +111,6 @@ p <- p %>%
 reshaped_p <- p %>%
   pivot_longer(cols = -c(Continent, Country), names_to = "Year", values_to = "p_consumption") %>%
   mutate(Year = as.numeric(Year))
-
-# Omit the "Continent" column
-reshaped_p <- reshaped_p %>%
-  select(-Continent)
 
 reshaped_p <- as.data.frame(reshaped_p)
 

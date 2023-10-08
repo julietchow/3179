@@ -73,12 +73,12 @@
       }
     },
     {
-      "data": {"values": [{"x_annotation": 1000}]},
+      "data": {"values": [{"anot_x": 1000}]},
       "mark": {"type": "text", "dx": 320, "dy": -20},
       "encoding": {
         "text": {"value": "There was a notable decline observed between 2008 and 2009 during the Financial Crisis, as well as between 2019 and 2020 amid the COVID-19 pandemic."},
         "x": {
-          "field": "x_annotation",
+          "field": "anot_x",
           "type": "quantitative",
           "timeUnit": "year",
           "title": "",

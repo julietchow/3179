@@ -14,11 +14,17 @@
 <body>
   
 <div id="choropleth_map"></div>
+<div id="stacked_area_chart"></div>
 
 <script type="text/javascript">
 
   var spec1 = "js/choropleth_map.vg.json";
   vegaEmbed('#choropleth_map', spec1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var spec2 = "js/stacked_area_chart.vg.json";
+  vegaEmbed('#stacked_area_chart', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>

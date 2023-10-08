@@ -10,11 +10,11 @@
     "params":[
         {
             "name": "select_continent",
-            "value": "Continent",
+            "value": "Total",
             "bind": {
               "input": "select",
               "options": [
-                "count",
+                "Total",
                 "Africa",
                 "Asia & Oceania",
                 "Central & South America",
@@ -37,7 +37,8 @@
             }
         }
     ],
-    "transform": [{"filter": "datum.Continent == select_continent"}],
+    "transform": [
+        {"filter": "datum.Continent == select_continent"}],
     "encoding": {
       "x": {
         "timeUnit": "year", "field": "Year",

@@ -80,8 +80,6 @@
         "x": {
           "field": "anot_x",
           "type": "quantitative",
-          "timeUnit": "year",
-          "title": "",
           "axis": null
         },
         "color": {"value": "white"}

@@ -4,56 +4,86 @@
   "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
   "title": {
       "text": "Energy Consumption Per Capita (2000 - 2021)",
-      "fontSize": 18
-    },
-  "mark": "area",
+      "fontSize": 14
+  },
   "params":[
-      {
-          "name": "select_continent",
-          "value": "Total",
-          "bind": {
-            "input": "select",
-            "options": [
-              "Total",
-              "Africa",
-              "Asia & Oceania",
-              "Central & South America",
-              "Eurasia",
-              "Europe",
-              "Middle East",
-              "North America"
-            ],
-            "labels": [
-              "All (Total)",
-              "Africa",
-              "Asia & Oceania",
-              "Central & South America",
-              "Eurasia",
-              "Europe",
-              "Middle East",
-              "North America"
-            ],
-            "name": "Continent : "
-          }
+    {
+      "name": "select_continent",
+      "value": "Total",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Total",
+          "Africa",
+          "Asia & Oceania",
+          "Central & South America",
+          "Eurasia",
+          "Europe",
+          "Middle East",
+          "North America"
+        ],
+        "labels": [
+          "All (Total)",
+          "Africa",
+          "Asia & Oceania",
+          "Central & South America",
+          "Eurasia",
+          "Europe",
+          "Middle East",
+          "North America"
+        ],
+          "name": "Continent : "
+      }
       }
   ],
   "transform": [
-      {"filter": "datum.Continent == select_continent"}],
+      {"filter": "datum.Continent == select_continent"}
+  ],
   "encoding": {
-    "x": {
-      "timeUnit": "year", "field": "Year",
-      "axis": {"format": "%Y"},
-      "title": "Year"
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y", "grid": false},
+        "title": "Year",
+        "type": "temporal"
+      },
+      "y": {
+        "aggregate": "sum",
+        "field": "count",
+        "title": "Energy Consumption Per Capita (Sextillion kWh)"
+      }
   },
-    "y": {
-      "aggregate": "sum",
-      "field": "count",
-      "title": "Energy Consumption (Sextillion kWh)"
+  "layer":[
+    {
+      "mark" :{"type":"area"},
+      "encoding": {
+        "color": {
+          "field": "Energy Source",
+          "scale": {
+              "scheme": "category20"
+          },
+          "legend" : {"title": "Energy Sources (Sextillion kWh)"}
+        },
+        "tooltip": [
+          {"field": "Year","type":"temporal","format":"%Y"},
+          {"field": "count","title":"Energy Consumption Per Capita (Sextillion kWh)","type":"quantitative","format":".2f"},
+          {"field": "Energy Source"}
+        ]
+      }
     },
-    "color": {
-      "field": "Energy.Source",
-      "scale": {
-          "scheme": "category20"}
-    }
+    {
+      "data": {"values": [{"x_annotation": 1000}]},
+      "mark": {"type": "text", "dx": 320, "dy": -20},
+      "encoding": {
+        "text": {"value": "There was a notable decline observed between 2008 and 2009 during the Financial Crisis, as well as between 2019 and 2020 amid the COVID-19 pandemic."},
+        "x": {
+          "field": "x_annotation",
+          "type": "quantitative",
+          "timeUnit": "year",
+          "title": "",
+          "axis": null
+        },
+        "color": {"value": "black"}
+      }
   }
+  ]
 }

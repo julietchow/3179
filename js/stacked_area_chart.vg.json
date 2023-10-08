@@ -51,9 +51,9 @@
       "title": "Energy Consumption (Sextillion kWh)"
     },
     "color": {
-      "field": "Energy Source",
+      "field": "Energy.Source",
       "scale": {
-          "scheme": "category20" }
+          "scheme": "category20"}
     }
   }
 }

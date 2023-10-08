@@ -4,13 +4,15 @@
     "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.json"},
     "mark": "area",
     "encoding": {
-        "x": {
-            "timeUnit": "year", "field": "Year",
-            "axis": {"format": "%Y", "labelAngle": 0},
-            "title": "Year"
-          },
+      "x": {
+        "timeUnit": "year", "field": "Year",
+         "axis": {"format": "%Y", "labelAngle": 0},
+         "title": "Year"
+    },
       "y": {
-        "aggregate": "sum", "field": "count"
+        "aggregate": "sum",
+        "field": "count",
+        "title": "Energy Consumption (Sextillion kWh)"
       },
       "color": {
         "field": "Energy Source",

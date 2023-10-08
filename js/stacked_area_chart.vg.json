@@ -7,6 +7,37 @@
         "fontSize": 18
       },
     "mark": "area",
+    "params":[
+        {
+            "name": "select_continent",
+            "value": "Continent",
+            "bind": {
+              "input": "select",
+              "options": [
+                "count",
+                "Africa",
+                "Asia & Oceania",
+                "Central & South America",
+                "Eurasia",
+                "Europe",
+                "Middle East",
+                "North America"
+              ],
+              "labels": [
+                "All (Total)",
+                "Africa",
+                "Asia & Oceania",
+                "Central & South America",
+                "Eurasia",
+                "Europe",
+                "Middle East",
+                "North America"
+              ],
+              "name": "Continent : "
+            }
+        }
+    ],
+    "transform": [{"filter": "datum.Continent == select_continent"}],
     "encoding": {
       "x": {
         "timeUnit": "year", "field": "Year",

@@ -1,5 +1,5 @@
 library(tidyverse)
-data <- read.csv("stacked_bar_chart.csv")
+data <- read.csv("stacked_area_chart.csv")
 
 # Define the conversion factors
 # Define the conversion factor
@@ -12,7 +12,7 @@ data <- data %>%
   )
 
 # Define the file name
-output_file <- "stacked_bar_chart_new.csv"
+output_file <- "stacked_area_chart_new.csv"
 
 # Save the dataframe as a CSV file
 write.csv(data, file = output_file, row.names = FALSE)

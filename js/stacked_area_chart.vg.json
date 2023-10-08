@@ -1,59 +1,59 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800, "height": 300,
-    "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
-    "title": {
-        "text": "Energy Consumption Per Capita (2000 - 2021)",
-        "fontSize": 18
-      },
-    "mark": "area",
-    "params":[
-        {
-            "name": "select_continent",
-            "value": "Energy Source",
-            "bind": {
-              "input": "select",
-              "options": [
-                "Total",
-                "Africa",
-                "Asia & Oceania",
-                "Central & South America",
-                "Eurasia",
-                "Europe",
-                "Middle East",
-                "North America"
-              ],
-              "labels": [
-                "All (Total)",
-                "Africa",
-                "Asia & Oceania",
-                "Central & South America",
-                "Eurasia",
-                "Europe",
-                "Middle East",
-                "North America"
-              ],
-              "name": "Continent : "
-            }
-        }
-    ],
-    "transform": [
-        {"filter": "datum.Continent == select_continent"}],
-    "encoding": {
-      "x": {
-        "timeUnit": "year", "field": "Year",
-        "axis": {"format": "%Y"},
-        "title": "Year"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800, "height": 300,
+  "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
+  "title": {
+      "text": "Energy Consumption Per Capita (2000 - 2021)",
+      "fontSize": 18
     },
-      "y": {
-        "aggregate": "sum",
-        "field": "count",
-        "title": "Energy Consumption (Sextillion kWh)"
-      },
-      "color": {
-        "field": "Energy Source",
-        "scale": {
-            "scheme": "category20" }
+  "mark": "area",
+  "params":[
+      {
+          "name": "select_continent",
+          "value": "Total",
+          "bind": {
+            "input": "select",
+            "options": [
+              "Total",
+              "Africa",
+              "Asia & Oceania",
+              "Central & South America",
+              "Eurasia",
+              "Europe",
+              "Middle East",
+              "North America"
+            ],
+            "labels": [
+              "All (Total)",
+              "Africa",
+              "Asia & Oceania",
+              "Central & South America",
+              "Eurasia",
+              "Europe",
+              "Middle East",
+              "North America"
+            ],
+            "name": "Continent : "
+          }
       }
+  ],
+  "transform": [
+      {"filter": "datum.Continent == select_continent"}],
+  "encoding": {
+    "x": {
+      "timeUnit": "year", "field": "Year",
+      "axis": {"format": "%Y"},
+      "title": "Year"
+  },
+    "y": {
+      "aggregate": "sum",
+      "field": "count",
+      "title": "Energy Consumption (Sextillion kWh)"
+    },
+    "color": {
+      "field": "Energy Source",
+      "scale": {
+          "scheme": "category20" }
     }
   }
+}

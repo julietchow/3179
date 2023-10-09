@@ -8,26 +8,27 @@
   
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  <div class="container">
+    <h1>World Energy Consumption 2000 - 2021</h1>
+  </div>
   
-<div id="choropleth_map"></div>
-<div id="stacked_area_chart"></div>
+  <div id="choropleth_map"></div>
+  <div id="stacked_area_chart"></div>
 
-<script type="text/javascript">
+  <script type="text/javascript">
+    var spec1 = "js/choropleth_map.vg.json";
+    vegaEmbed('#choropleth_map', spec1).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
 
-  var spec1 = "js/choropleth_map.vg.json";
-  vegaEmbed('#choropleth_map', spec1).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
-  var spec2 = "js/stacked_area_chart.vg.json";
-  vegaEmbed('#stacked_area_chart', spec2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
-
+    var spec2 = "js/stacked_area_chart.vg.json";
+    vegaEmbed('#stacked_area_chart', spec2).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
 </body>
 </html>

@@ -1,23 +1,26 @@
+/* Reset the body to ensure no conflicting styles */
 body {
-	font-family: 'Lato', sans-serif;
-	height: 100vh; /* Make sure the body takes up the full viewport height */
-	width: 100%; /* Make sure the body takes up the full viewport width */
-	margin: 0; /* Remove default margin to ensure the page takes the full width */
-	padding: 0; /* Remove default padding */
-	text-align: center; /* Center-align text within body */
+	margin: 0;
+	padding: 50px;
+	text-align: center;
   }
   
-  .container {
+.container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100%; /* Center the container vertically within the body */
+	min-height: 100vh; /* Ensure the container takes up at least the viewport height */
+	text-align: center;
+	font-family: Helvetica , sans-serif;
+	color: rgb(230, 62, 32); 
   }
   
-  /* Set Lato font family and font size for h1 */
+  
+  /* Set Lato font family for h1 */
   h1 {
-	font-family: 'Lato', sans-serif;
-	font-size: 36px; /* Adjust the font size as needed */
-  }
-  
+	font-family: Helvetica , sans-serif;;
+	text-align: center;
+	font-size: 24px;
+	
+  }  

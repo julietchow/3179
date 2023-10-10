@@ -1,7 +1,7 @@
 # Load the dplyr package if you haven't already
 library(dplyr)
 
-df <- read.csv("stacked_area_chart.csv")
+df <- read.csv("stacked_area_chart2.csv")
 
 # Create a summary data frame with totals for each combination of Continent, Year, and Energy.Source
 total_df <- df %>%
@@ -24,4 +24,4 @@ final_df <- final_df %>%
 # Print the final data frame
 print(final_df)
 
-write.csv(final_df, file = "final.csv",  row.names = FALSE)
+write.csv(final_df, file = "final2.csv",  row.names = FALSE)

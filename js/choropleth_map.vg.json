@@ -15,7 +15,29 @@
       "name": "select_year",
       "value" : 2021,
       "bind": {"input":"range", "min":2000,"max":2021,"step":1,"name":"Year: "}
-    }
+    },
+    {
+      "name": "select_sources",
+      "value": "total_consumption",
+      "bind": {
+        "input": "select",
+        "options": [
+          "total_consumption",
+          "coal_consumption",
+          "ng_consumption",
+          "nr_consumption",
+          "p_consumption"
+        ],
+        "labels": [
+          "All",
+          "Coal",
+          "Natural Gas",
+          "Nuclear & Renewables",
+          "Petroleum"
+        ],
+          "name": "Energy Sources : "
+      }
+      }
   ],
   "layer": [
     {
@@ -65,18 +87,26 @@
           },
           "as": "geo"
         },
-        {"filter": "datum.Year == select_year"}
+        {"filter": "datum.Year == select_year"},
+        {
+          "calculate": "datum[select_sources]",
+          "as": "select_energy"
+        },
+        {
+          "calculate": "datum.select_sources === 'total_consumption' ? 49000 : 0",
+          "as": "getMaxValueSignal"
+        }
       ],
       "mark": {"type": "geoshape", "stroke": "white"},
       "encoding": {
         "shape": {"field": "geo", "type": "geojson"},
         "color": {
-          "field": "total_consumption",
+          "field": "select_energy",
           "type": "quantitative",
-          "scale": { 
+          "scale": {
             "type": "quantize",
-            "scheme":{"name":"yelloworangered","count":20},
-            "domain": [0,49000]
+            "scheme": {"name": "yelloworangered", "count": 20},
+            "domain": [0, {"expr": "getMaxValueSignal"}]
           },
           "legend": {
             "title": "Energy Consumption Per Capita (Sextillion kWh)",

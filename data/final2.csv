@@ -1,0 +1,705 @@
+Energy Source,Continent,Year,count
+Coal,Africa,2000,3.755965386
+Coal,Africa,2001,3.7435060009
+Coal,Africa,2002,3.848335924
+Coal,Africa,2003,4.0476140028
+Coal,Africa,2004,4.074514853
+Coal,Africa,2005,4.176881979
+Coal,Africa,2006,4.258264903
+Coal,Africa,2007,4.385577101
+Coal,Africa,2008,4.351532638
+Coal,Africa,2009,4.326141225
+Coal,Africa,2010,4.40795629
+Coal,Africa,2011,4.162462069
+Coal,Africa,2012,4.325779777
+Coal,Africa,2013,4.305212345
+Coal,Africa,2014,4.347599639
+Coal,Africa,2015,4.331505265
+Coal,Africa,2016,4.367930432
+Coal,Africa,2017,4.397090694
+Coal,Africa,2018,4.26388272
+Coal,Africa,2019,4.664265595
+Coal,Africa,2020,4.589082136
+Coal,Africa,2021,4.410927848
+Coal,Antarctica,2000,0
+Coal,Antarctica,2001,0
+Coal,Antarctica,2002,0
+Coal,Antarctica,2003,0
+Coal,Antarctica,2004,0
+Coal,Antarctica,2005,0
+Coal,Antarctica,2006,0
+Coal,Antarctica,2007,0
+Coal,Antarctica,2008,0
+Coal,Antarctica,2009,0
+Coal,Antarctica,2010,0
+Coal,Antarctica,2011,0
+Coal,Antarctica,2012,0
+Coal,Antarctica,2013,0
+Coal,Antarctica,2014,0
+Coal,Antarctica,2015,0
+Coal,Antarctica,2016,0
+Coal,Antarctica,2017,0
+Coal,Antarctica,2018,0
+Coal,Antarctica,2019,0
+Coal,Antarctica,2020,0
+Coal,Antarctica,2021,0
+Coal,Asia,2000,46.416533447
+Coal,Asia,2001,48.23214777
+Coal,Asia,2002,50.968941074
+Coal,Asia,2003,58.023355734
+Coal,Asia,2004,67.7656213747
+Coal,Asia,2005,75.607395903
+Coal,Asia,2006,82.541895056
+Coal,Asia,2007,88.6449688518
+Coal,Asia,2008,92.315586757
+Coal,Asia,2009,98.624045837
+Coal,Asia,2010,108.84053872
+Coal,Asia,2011,118.0900037
+Coal,Asia,2012,124.637922795
+Coal,Asia,2013,127.022941517
+Coal,Asia,2014,127.082888074
+Coal,Asia,2015,124.635648403
+Coal,Asia,2016,122.587955522
+Coal,Asia,2017,123.782054562
+Coal,Asia,2018,126.646274368
+Coal,Asia,2019,128.519542126
+Coal,Asia,2020,127.674891977
+Coal,Asia,2021,133.510215915
+Coal,Europe,2000,21.603448777
+Coal,Europe,2001,21.458205423
+Coal,Europe,2002,21.1661101268
+Coal,Europe,2003,21.9384603182
+Coal,Europe,2004,21.468992209
+Coal,Europe,2005,21.05428756
+Coal,Europe,2006,21.443610486
+Coal,Europe,2007,21.59981237
+Coal,Europe,2008,21.010792754
+Coal,Europe,2009,18.770561387
+Coal,Europe,2010,19.105764376
+Coal,Europe,2011,19.7829711716
+Coal,Europe,2012,20.5993714929
+Coal,Europe,2013,19.627763954
+Coal,Europe,2014,18.57161329186
+Coal,Europe,2015,18.5906106252
+Coal,Europe,2016,17.69570952
+Coal,Europe,2017,17.645311695
+Coal,Europe,2018,17.49783913047
+Coal,Europe,2019,15.7269851584
+Coal,Europe,2020,13.793762349
+Coal,Europe,2021,14.629136833
+Coal,North America,2000,24.074733291
+Coal,North America,2001,23.522852601
+Coal,North America,2002,23.473729685
+Coal,North America,2003,23.887234891
+Coal,North America,2004,23.994346822
+Coal,North America,2005,24.488683356
+Coal,North America,2006,24.171587519
+Coal,North America,2007,24.385780228
+Coal,North America,2008,23.867958674
+Coal,North America,2009,21.016930744
+Coal,North America,2010,22.268019462
+Coal,North America,2011,21.064800227
+Coal,North America,2012,18.688968898
+Coal,North America,2013,19.316617669
+Coal,North America,2014,19.265361085
+Coal,North America,2015,16.824335162
+Coal,North America,2016,15.363952723
+Coal,North America,2017,15.055226232
+Coal,North America,2018,14.287803255
+Coal,North America,2019,12.206418832
+Coal,North America,2020,9.850114668
+Coal,North America,2021,11.143832003
+Coal,Oceania,2000,2.072372514
+Coal,Oceania,2001,2.064157117
+Coal,Oceania,2002,2.084490981
+Coal,Oceania,2003,2.044442037
+Coal,Oceania,2004,2.136609909
+Coal,Oceania,2005,2.1862553793
+Coal,Oceania,2006,2.217563647
+Coal,Oceania,2007,2.21621067403
+Coal,Oceania,2008,2.216354363
+Coal,Oceania,2009,2.237242009
+Coal,Oceania,2010,2.1387978634
+Coal,Oceania,2011,2.054522857
+Coal,Oceania,2012,2.026221573
+Coal,Oceania,2013,1.8927830355
+Coal,Oceania,2014,1.8016744982
+Coal,Oceania,2015,1.8559040915
+Coal,Oceania,2016,1.9287356749
+Coal,Oceania,2017,1.9106345177
+Coal,Oceania,2018,1.8305528468
+Coal,Oceania,2019,1.779972143
+Coal,Oceania,2020,1.68276362648
+Coal,Oceania,2021,1.7564779743
+Coal,South America,2000,0.7719477234
+Coal,South America,2001,0.744527149
+Coal,South America,2002,0.7104672471
+Coal,South America,2003,0.7463678442
+Coal,South America,2004,0.79842291027
+Coal,South America,2005,0.809622416
+Coal,South America,2006,0.83686773
+Coal,South America,2007,0.8853785181
+Coal,South America,2008,0.8822391176
+Coal,South America,2009,0.8087135273
+Coal,South America,2010,0.961701208
+Coal,South America,2011,1.045631165
+Coal,South America,2012,1.086029572
+Coal,South America,2013,1.19373247
+Coal,South America,2014,1.290831657
+Coal,South America,2015,1.30627678
+Coal,South America,2016,1.289718376
+Coal,South America,2017,1.318927313
+Coal,South America,2018,1.280978191
+Coal,South America,2019,1.2942472744
+Coal,South America,2020,1.1663626617
+Coal,South America,2021,1.2698765017
+Coal,Total,2000,98.6950011384
+Coal,Total,2001,99.7653960609
+Coal,Total,2002,102.2520750379
+Coal,Total,2003,110.6874748272
+Coal,Total,2004,120.23850807797
+Coal,Total,2005,128.3231265933
+Coal,Total,2006,135.469789341
+Coal,Total,2007,142.11772774293
+Coal,Total,2008,144.6444643036
+Coal,Total,2009,145.7836347293
+Coal,Total,2010,157.7227779194
+Coal,Total,2011,166.2003911896
+Coal,Total,2012,171.3642941079
+Coal,Total,2013,173.3590509905
+Coal,Total,2014,172.35996824506
+Coal,Total,2015,167.5442803267
+Coal,Total,2016,163.2340022479
+Coal,Total,2017,164.1092450137
+Coal,Total,2018,165.80733051127
+Coal,Total,2019,164.1914311288
+Coal,Total,2020,158.75697741818
+Coal,Total,2021,166.720467075
+Natural Gas,Africa,2000,2.202082717
+Natural Gas,Africa,2001,2.461631015
+Natural Gas,Africa,2002,2.544445396
+Natural Gas,Africa,2003,2.76461747
+Natural Gas,Africa,2004,2.85028281
+Natural Gas,Africa,2005,3.300960052
+Natural Gas,Africa,2006,3.479718712
+Natural Gas,Africa,2007,3.5204664
+Natural Gas,Africa,2008,3.774085611
+Natural Gas,Africa,2009,3.560169
+Natural Gas,Africa,2010,3.749137552
+Natural Gas,Africa,2011,4.470521682
+Natural Gas,Africa,2012,4.7630662
+Natural Gas,Africa,2013,4.749412184
+Natural Gas,Africa,2014,4.893730571
+Natural Gas,Africa,2015,4.924789178
+Natural Gas,Africa,2016,5.05222114
+Natural Gas,Africa,2017,5.394743004
+Natural Gas,Africa,2018,5.700176692
+Natural Gas,Africa,2019,5.741337868
+Natural Gas,Africa,2020,5.594589772
+Natural Gas,Africa,2021,5.9661691
+Natural Gas,Antarctica,2000,0
+Natural Gas,Antarctica,2001,0
+Natural Gas,Antarctica,2002,0
+Natural Gas,Antarctica,2003,0
+Natural Gas,Antarctica,2004,0
+Natural Gas,Antarctica,2005,0
+Natural Gas,Antarctica,2006,0
+Natural Gas,Antarctica,2007,0
+Natural Gas,Antarctica,2008,0
+Natural Gas,Antarctica,2009,0
+Natural Gas,Antarctica,2010,0
+Natural Gas,Antarctica,2011,0
+Natural Gas,Antarctica,2012,0
+Natural Gas,Antarctica,2013,0
+Natural Gas,Antarctica,2014,0
+Natural Gas,Antarctica,2015,0
+Natural Gas,Antarctica,2016,0
+Natural Gas,Antarctica,2017,0
+Natural Gas,Antarctica,2018,0
+Natural Gas,Antarctica,2019,0
+Natural Gas,Antarctica,2020,0
+Natural Gas,Antarctica,2021,0
+Natural Gas,Asia,2000,19.573152183
+Natural Gas,Asia,2001,19.97868995
+Natural Gas,Asia,2002,21.89363635
+Natural Gas,Asia,2003,22.880267841
+Natural Gas,Asia,2004,24.437571301
+Natural Gas,Asia,2005,26.860919975
+Natural Gas,Asia,2006,28.890200819
+Natural Gas,Asia,2007,31.040584343
+Natural Gas,Asia,2008,32.772519388
+Natural Gas,Asia,2009,34.313892192
+Natural Gas,Asia,2010,37.597161082
+Natural Gas,Asia,2011,40.317720001
+Natural Gas,Asia,2012,42.295273049
+Natural Gas,Asia,2013,43.406651387
+Natural Gas,Asia,2014,45.046365458
+Natural Gas,Asia,2015,46.314949417
+Natural Gas,Asia,2016,47.932807727
+Natural Gas,Asia,2017,50.414807814
+Natural Gas,Asia,2018,53.082544337
+Natural Gas,Asia,2019,54.575855969
+Natural Gas,Asia,2020,54.761326609
+Natural Gas,Asia,2021,57.670045853
+Natural Gas,Europe,2000,34.774287409
+Natural Gas,Europe,2001,34.965037037
+Natural Gas,Europe,2002,36.061415141
+Natural Gas,Europe,2003,37.680541914
+Natural Gas,Europe,2004,38.562660498
+Natural Gas,Europe,2005,38.974663573
+Natural Gas,Europe,2006,40.001689804
+Natural Gas,Europe,2007,39.992931659
+Natural Gas,Europe,2008,40.791291614
+Natural Gas,Europe,2009,36.007342135
+Natural Gas,Europe,2010,41.001002465
+Natural Gas,Europe,2011,40.366171511
+Natural Gas,Europe,2012,39.073695889
+Natural Gas,Europe,2013,38.384838014
+Natural Gas,Europe,2014,36.259116208
+Natural Gas,Europe,2015,35.771196902
+Natural Gas,Europe,2016,36.710720704
+Natural Gas,Europe,2017,38.007799939
+Natural Gas,Europe,2018,38.50533534
+Natural Gas,Europe,2019,38.260548946
+Natural Gas,Europe,2020,36.843463322
+Natural Gas,Europe,2021,39.934700659
+Natural Gas,North America,2000,28.421020384
+Natural Gas,North America,2001,27.554063308
+Natural Gas,North America,2002,28.545223555
+Natural Gas,North America,2003,28.272642956
+Natural Gas,North America,2004,28.379970096
+Natural Gas,North America,2005,27.792464496
+Natural Gas,North America,2006,27.884383982
+Natural Gas,North America,2007,29.137933962
+Natural Gas,North America,2008,29.260849188
+Natural Gas,North America,2009,29.227869564
+Natural Gas,North America,2010,30.47655172
+Natural Gas,North America,2011,31.049147064
+Natural Gas,North America,2012,32.463569928
+Natural Gas,North America,2013,33.540488201
+Natural Gas,North America,2014,34.208740795
+Natural Gas,North America,2015,35.178859677
+Natural Gas,North America,2016,35.316159526
+Natural Gas,North America,2017,35.26228512
+Natural Gas,North America,2018,38.815387718
+Natural Gas,North America,2019,39.849727729
+Natural Gas,North America,2020,38.965982709
+Natural Gas,North America,2021,39.323497643
+Natural Gas,Oceania,2000,1.065544169
+Natural Gas,Oceania,2001,1.137485944
+Natural Gas,Oceania,2002,1.212699373
+Natural Gas,Oceania,2003,1.189277934
+Natural Gas,Oceania,2004,1.20552626
+Natural Gas,Oceania,2005,1.207715613
+Natural Gas,Oceania,2006,1.208305833
+Natural Gas,Oceania,2007,1.341840464
+Natural Gas,Oceania,2008,1.352883854
+Natural Gas,Oceania,2009,1.415157054
+Natural Gas,Oceania,2010,1.447238403
+Natural Gas,Oceania,2011,1.454440201
+Natural Gas,Oceania,2012,1.511849291
+Natural Gas,Oceania,2013,1.568052551
+Natural Gas,Oceania,2014,1.61978668
+Natural Gas,Oceania,2015,1.623158025
+Natural Gas,Oceania,2016,1.747433538
+Natural Gas,Oceania,2017,1.822429393
+Natural Gas,Oceania,2018,1.794551963
+Natural Gas,Oceania,2019,1.841967386
+Natural Gas,Oceania,2020,1.799203721
+Natural Gas,Oceania,2021,1.695580671
+Natural Gas,South America,2000,3.568763827
+Natural Gas,South America,2001,3.834447751
+Natural Gas,South America,2002,3.802782874
+Natural Gas,South America,2003,3.999836371
+Natural Gas,South America,2004,4.35879869
+Natural Gas,South America,2005,4.470181983
+Natural Gas,South America,2006,4.847823742
+Natural Gas,South America,2007,4.687183558
+Natural Gas,South America,2008,4.921135406
+Natural Gas,South America,2009,4.624883729
+Natural Gas,South America,2010,5.152788126
+Natural Gas,South America,2011,5.334485646
+Natural Gas,South America,2012,5.695193276
+Natural Gas,South America,2013,6.005233821
+Natural Gas,South America,2014,6.117385011
+Natural Gas,South America,2015,6.238739844
+Natural Gas,South America,2016,5.93988657
+Natural Gas,South America,2017,5.907655661
+Natural Gas,South America,2018,5.871648828
+Natural Gas,South America,2019,5.868798402
+Natural Gas,South America,2020,5.327211507
+Natural Gas,South America,2021,5.7600535
+Natural Gas,Total,2000,89.604850689
+Natural Gas,Total,2001,89.931355005
+Natural Gas,Total,2002,94.060202689
+Natural Gas,Total,2003,96.787184486
+Natural Gas,Total,2004,99.794809655
+Natural Gas,Total,2005,102.606905692
+Natural Gas,Total,2006,106.312122892
+Natural Gas,Total,2007,109.720940386
+Natural Gas,Total,2008,112.872765061
+Natural Gas,Total,2009,109.149313674
+Natural Gas,Total,2010,119.423879348
+Natural Gas,Total,2011,122.992486105
+Natural Gas,Total,2012,125.802647633
+Natural Gas,Total,2013,127.654676158
+Natural Gas,Total,2014,128.145124723
+Natural Gas,Total,2015,130.051693043
+Natural Gas,Total,2016,132.699229205
+Natural Gas,Total,2017,136.809720931
+Natural Gas,Total,2018,143.769644878
+Natural Gas,Total,2019,146.1382363
+Natural Gas,Total,2020,143.29177764
+Natural Gas,Total,2021,150.350047426
+Nuclear & Renewables,Africa,2000,0.920269721
+Nuclear & Renewables,Africa,2001,0.97962715
+Nuclear & Renewables,Africa,2002,1.005402152
+Nuclear & Renewables,Africa,2003,0.996855504
+Nuclear & Renewables,Africa,2004,1.050366258
+Nuclear & Renewables,Africa,2005,1.045878307
+Nuclear & Renewables,Africa,2006,1.059142063
+Nuclear & Renewables,Africa,2007,1.115780126
+Nuclear & Renewables,Africa,2008,1.132779556
+Nuclear & Renewables,Africa,2009,1.150665413
+Nuclear & Renewables,Africa,2010,1.288895136
+Nuclear & Renewables,Africa,2011,1.30224546
+Nuclear & Renewables,Africa,2012,1.29061517
+Nuclear & Renewables,Africa,2013,1.370823227
+Nuclear & Renewables,Africa,2014,1.472139822
+Nuclear & Renewables,Africa,2015,1.426946344
+Nuclear & Renewables,Africa,2016,1.509126714
+Nuclear & Renewables,Africa,2017,1.594468216
+Nuclear & Renewables,Africa,2018,1.655724828
+Nuclear & Renewables,Africa,2019,1.721495854
+Nuclear & Renewables,Africa,2020,1.710445702
+Nuclear & Renewables,Africa,2021,1.809898778
+Nuclear & Renewables,Antarctica,2000,0
+Nuclear & Renewables,Antarctica,2001,0
+Nuclear & Renewables,Antarctica,2002,0
+Nuclear & Renewables,Antarctica,2003,0
+Nuclear & Renewables,Antarctica,2004,0
+Nuclear & Renewables,Antarctica,2005,1.9998e-05
+Nuclear & Renewables,Antarctica,2006,1.9838e-05
+Nuclear & Renewables,Antarctica,2007,1.9768e-05
+Nuclear & Renewables,Antarctica,2008,1.9708e-05
+Nuclear & Renewables,Antarctica,2009,3.904e-05
+Nuclear & Renewables,Antarctica,2010,3.9024e-05
+Nuclear & Renewables,Antarctica,2011,3.8864e-05
+Nuclear & Renewables,Antarctica,2012,4.758e-06
+Nuclear & Renewables,Antarctica,2013,4.77e-06
+Nuclear & Renewables,Antarctica,2014,4.755e-06
+Nuclear & Renewables,Antarctica,2015,9.319e-06
+Nuclear & Renewables,Antarctica,2016,9.232e-06
+Nuclear & Renewables,Antarctica,2017,0
+Nuclear & Renewables,Antarctica,2018,0
+Nuclear & Renewables,Antarctica,2019,0
+Nuclear & Renewables,Antarctica,2020,0
+Nuclear & Renewables,Antarctica,2021,0
+Nuclear & Renewables,Asia,2000,10.429726249
+Nuclear & Renewables,Asia,2001,11.178843936
+Nuclear & Renewables,Asia,2002,11.207068205
+Nuclear & Renewables,Asia,2003,11.210822626
+Nuclear & Renewables,Asia,2004,12.472209325
+Nuclear & Renewables,Asia,2005,13.538406679
+Nuclear & Renewables,Asia,2006,14.320368336
+Nuclear & Renewables,Asia,2007,14.480336701
+Nuclear & Renewables,Asia,2008,15.505445371
+Nuclear & Renewables,Asia,2009,16.52043781
+Nuclear & Renewables,Asia,2010,18.393906631
+Nuclear & Renewables,Asia,2011,17.95420711
+Nuclear & Renewables,Asia,2012,18.543740204
+Nuclear & Renewables,Asia,2013,20.164742454
+Nuclear & Renewables,Asia,2014,22.329282585
+Nuclear & Renewables,Asia,2015,23.500479591
+Nuclear & Renewables,Asia,2016,25.790329157
+Nuclear & Renewables,Asia,2017,28.054761068
+Nuclear & Renewables,Asia,2018,30.637852537
+Nuclear & Renewables,Asia,2019,33.062058089
+Nuclear & Renewables,Asia,2020,34.793199456
+Nuclear & Renewables,Asia,2021,37.544231428
+Nuclear & Renewables,Europe,2000,20.562723208
+Nuclear & Renewables,Europe,2001,21.262145241
+Nuclear & Renewables,Europe,2002,20.887270907
+Nuclear & Renewables,Europe,2003,20.639708758
+Nuclear & Renewables,Europe,2004,21.370784331
+Nuclear & Renewables,Europe,2005,21.45407148
+Nuclear & Renewables,Europe,2006,21.620840969
+Nuclear & Renewables,Europe,2007,21.482980247
+Nuclear & Renewables,Europe,2008,21.926187421
+Nuclear & Renewables,Europe,2009,21.608183252
+Nuclear & Renewables,Europe,2010,22.868197289
+Nuclear & Renewables,Europe,2011,22.596787809
+Nuclear & Renewables,Europe,2012,23.246782692
+Nuclear & Renewables,Europe,2013,24.228818809
+Nuclear & Renewables,Europe,2014,24.576467981
+Nuclear & Renewables,Europe,2015,24.84205279
+Nuclear & Renewables,Europe,2016,24.858702472
+Nuclear & Renewables,Europe,2017,24.937920126
+Nuclear & Renewables,Europe,2018,25.643178765
+Nuclear & Renewables,Europe,2019,25.892994437
+Nuclear & Renewables,Europe,2020,26.254184718
+Nuclear & Renewables,Europe,2021,26.855240204
+Nuclear & Renewables,North America,2000,18.85354765
+Nuclear & Renewables,North America,2001,17.923465014
+Nuclear & Renewables,North America,2002,18.67893234
+Nuclear & Renewables,North America,2003,18.573824884
+Nuclear & Renewables,North America,2004,19.152658316
+Nuclear & Renewables,North America,2005,19.473166275
+Nuclear & Renewables,North America,2006,19.913098511
+Nuclear & Renewables,North America,2007,20.052873906
+Nuclear & Renewables,North America,2008,20.858716939
+Nuclear & Renewables,North America,2009,20.960666788
+Nuclear & Renewables,North America,2010,21.666339467
+Nuclear & Renewables,North America,2011,22.718985368
+Nuclear & Renewables,North America,2012,22.080412781
+Nuclear & Renewables,North America,2013,23.136434229
+Nuclear & Renewables,North America,2014,23.628977278
+Nuclear & Renewables,North America,2015,23.449994895
+Nuclear & Renewables,North America,2016,24.244231427
+Nuclear & Renewables,North America,2017,25.096743904
+Nuclear & Renewables,North America,2018,25.322608603
+Nuclear & Renewables,North America,2019,25.284354903
+Nuclear & Renewables,North America,2020,25.159771704
+Nuclear & Renewables,North America,2021,25.772778881
+Nuclear & Renewables,Oceania,2000,0.48195197
+Nuclear & Renewables,Oceania,2001,0.461483543
+Nuclear & Renewables,Oceania,2002,0.481964154
+Nuclear & Renewables,Oceania,2003,0.471136205
+Nuclear & Renewables,Oceania,2004,0.504777888
+Nuclear & Renewables,Oceania,2005,0.490372304
+Nuclear & Renewables,Oceania,2006,0.505961197
+Nuclear & Renewables,Oceania,2007,0.497650648
+Nuclear & Renewables,Oceania,2008,0.4629813
+Nuclear & Renewables,Oceania,2009,0.496457985
+Nuclear & Renewables,Oceania,2010,0.536484974
+Nuclear & Renewables,Oceania,2011,0.593044333
+Nuclear & Renewables,Oceania,2012,0.559493694
+Nuclear & Renewables,Oceania,2013,0.634035599
+Nuclear & Renewables,Oceania,2014,0.674613632
+Nuclear & Renewables,Oceania,2015,0.642433034
+Nuclear & Renewables,Oceania,2016,0.704317169
+Nuclear & Renewables,Oceania,2017,0.721692433
+Nuclear & Renewables,Oceania,2018,0.740215129
+Nuclear & Renewables,Oceania,2019,0.821336391
+Nuclear & Renewables,Oceania,2020,0.88448371
+Nuclear & Renewables,Oceania,2021,0.956539603
+Nuclear & Renewables,South America,2000,5.882389931
+Nuclear & Renewables,South America,2001,5.729629376
+Nuclear & Renewables,South America,2002,5.905742816
+Nuclear & Renewables,South America,2003,6.158461708
+Nuclear & Renewables,South America,2004,6.303647784
+Nuclear & Renewables,South America,2005,6.584556877
+Nuclear & Renewables,South America,2006,6.885904344
+Nuclear & Renewables,South America,2007,7.1055068
+Nuclear & Renewables,South America,2008,7.162509601
+Nuclear & Renewables,South America,2009,7.273904583
+Nuclear & Renewables,South America,2010,7.434067031
+Nuclear & Renewables,South America,2011,7.881285765
+Nuclear & Renewables,South America,2012,7.647316997
+Nuclear & Renewables,South America,2013,7.621851863
+Nuclear & Renewables,South America,2014,7.344930014
+Nuclear & Renewables,South America,2015,7.396957361
+Nuclear & Renewables,South America,2016,7.669404937
+Nuclear & Renewables,South America,2017,7.862966707
+Nuclear & Renewables,South America,2018,8.079620848
+Nuclear & Renewables,South America,2019,7.907464661
+Nuclear & Renewables,South America,2020,7.959814982
+Nuclear & Renewables,South America,2021,7.934203699
+Nuclear & Renewables,Total,2000,57.130608729
+Nuclear & Renewables,Total,2001,57.53519426
+Nuclear & Renewables,Total,2002,58.166380574
+Nuclear & Renewables,Total,2003,58.050809685
+Nuclear & Renewables,Total,2004,60.854443902
+Nuclear & Renewables,Total,2005,62.58647192
+Nuclear & Renewables,Total,2006,64.305335258
+Nuclear & Renewables,Total,2007,64.735148196
+Nuclear & Renewables,Total,2008,67.048639896
+Nuclear & Renewables,Total,2009,68.010354871
+Nuclear & Renewables,Total,2010,72.187929552
+Nuclear & Renewables,Total,2011,73.046594709
+Nuclear & Renewables,Total,2012,73.368366296
+Nuclear & Renewables,Total,2013,77.156710951
+Nuclear & Renewables,Total,2014,80.026416067
+Nuclear & Renewables,Total,2015,81.258873334
+Nuclear & Renewables,Total,2016,84.776121108
+Nuclear & Renewables,Total,2017,88.268552454
+Nuclear & Renewables,Total,2018,92.07920071
+Nuclear & Renewables,Total,2019,94.689704335
+Nuclear & Renewables,Total,2020,96.761900272
+Nuclear & Renewables,Total,2021,100.872892593
+Petroleum,Africa,2000,5.198636871
+Petroleum,Africa,2001,5.339246933
+Petroleum,Africa,2002,5.515404855
+Petroleum,Africa,2003,5.627361954
+Petroleum,Africa,2004,5.896128018
+Petroleum,Africa,2005,6.11620369
+Petroleum,Africa,2006,6.119941679
+Petroleum,Africa,2007,6.425683249
+Petroleum,Africa,2008,6.874124504
+Petroleum,Africa,2009,7.092416974
+Petroleum,Africa,2010,7.459832455
+Petroleum,Africa,2011,7.411635071
+Petroleum,Africa,2012,7.680326859
+Petroleum,Africa,2013,8.218558691
+Petroleum,Africa,2014,8.546511122
+Petroleum,Africa,2015,8.541806548
+Petroleum,Africa,2016,8.432139195
+Petroleum,Africa,2017,8.587922006
+Petroleum,Africa,2018,8.685934636
+Petroleum,Africa,2019,8.754598754
+Petroleum,Africa,2020,7.958764737
+Petroleum,Africa,2021,8.063199947
+Petroleum,Antarctica,2000,0.003172179
+Petroleum,Antarctica,2001,0.003259088
+Petroleum,Antarctica,2002,0.003259088
+Petroleum,Antarctica,2003,0.003259088
+Petroleum,Antarctica,2004,0.003302542
+Petroleum,Antarctica,2005,0.003302542
+Petroleum,Antarctica,2006,0.003302542
+Petroleum,Antarctica,2007,0.003345996
+Petroleum,Antarctica,2008,0.000148409
+Petroleum,Antarctica,2009,0.000190919
+Petroleum,Antarctica,2010,0.000190919
+Petroleum,Antarctica,2011,0.000190919
+Petroleum,Antarctica,2012,0.000191441
+Petroleum,Antarctica,2013,0.000190919
+Petroleum,Antarctica,2014,0.000190919
+Petroleum,Antarctica,2015,0.00018941
+Petroleum,Antarctica,2016,0.000189246
+Petroleum,Antarctica,2017,0.000186509
+Petroleum,Antarctica,2018,0.000186509
+Petroleum,Antarctica,2019,0.000186509
+Petroleum,Antarctica,2020,0.000157013
+Petroleum,Antarctica,2021,0.000167087
+Petroleum,Asia,2000,52.731395753
+Petroleum,Asia,2001,53.220797994
+Petroleum,Asia,2002,54.586611346
+Petroleum,Asia,2003,56.645395586
+Petroleum,Asia,2004,60.492941597
+Petroleum,Asia,2005,61.538262053
+Petroleum,Asia,2006,63.405001228
+Petroleum,Asia,2007,66.064365287
+Petroleum,Asia,2008,66.615283443
+Petroleum,Asia,2009,67.260080138
+Petroleum,Asia,2010,71.340870246
+Petroleum,Asia,2011,73.383157953
+Petroleum,Asia,2012,76.083907311
+Petroleum,Asia,2013,77.572455575
+Petroleum,Asia,2014,79.22480634
+Petroleum,Asia,2015,79.507025983
+Petroleum,Asia,2016,84.255242386
+Petroleum,Asia,2017,86.121203144
+Petroleum,Asia,2018,87.229935596
+Petroleum,Asia,2019,85.973409424
+Petroleum,Asia,2020,80.126138661
+Petroleum,Asia,2021,83.445317078
+Petroleum,Europe,2000,39.521116702
+Petroleum,Europe,2001,40.032765057
+Petroleum,Europe,2002,39.997759443
+Petroleum,Europe,2003,40.347548573
+Petroleum,Europe,2004,40.583128389
+Petroleum,Europe,2005,40.721085495
+Petroleum,Europe,2006,41.130571462
+Petroleum,Europe,2007,40.566176327
+Petroleum,Europe,2008,40.606893691
+Petroleum,Europe,2009,38.67119179
+Petroleum,Europe,2010,38.88712767
+Petroleum,Europe,2011,38.3427738
+Petroleum,Europe,2012,37.490165345
+Petroleum,Europe,2013,37.125103806
+Petroleum,Europe,2014,37.370870638
+Petroleum,Europe,2015,37.703241445
+Petroleum,Europe,2016,38.349894276
+Petroleum,Europe,2017,38.882171493
+Petroleum,Europe,2018,38.635068412
+Petroleum,Europe,2019,38.954612663
+Petroleum,Europe,2020,35.900013934
+Petroleum,Europe,2021,36.424554547
+Petroleum,North America,2000,46.38459011
+Petroleum,North America,2001,46.280840629
+Petroleum,North America,2002,46.351861592
+Petroleum,North America,2003,47.223927813
+Petroleum,North America,2004,49.032860389
+Petroleum,North America,2005,49.424271479
+Petroleum,North America,2006,49.061231336
+Petroleum,North America,2007,49.132486308
+Petroleum,North America,2008,46.577295946
+Petroleum,North America,2009,44.422305883
+Petroleum,North America,2010,45.405130086
+Petroleum,North America,2011,44.913295891
+Petroleum,North America,2012,44.181603711
+Petroleum,North America,2013,44.749846702
+Petroleum,North America,2014,44.860354062
+Petroleum,North America,2015,45.652688823
+Petroleum,North America,2016,46.279689157
+Petroleum,North America,2017,46.502664994
+Petroleum,North America,2018,47.147494423
+Petroleum,North America,2019,47.180884121
+Petroleum,North America,2020,41.070380374
+Petroleum,North America,2021,44.223188795
+Petroleum,Oceania,2000,2.206439687
+Petroleum,Oceania,2001,2.227551473
+Petroleum,Oceania,2002,2.266781934
+Petroleum,Oceania,2003,2.354843378
+Petroleum,Oceania,2004,2.427587339
+Petroleum,Oceania,2005,2.467012006
+Petroleum,Oceania,2006,2.501041335
+Petroleum,Oceania,2007,2.531594703
+Petroleum,Oceania,2008,2.531473911
+Petroleum,Oceania,2009,2.540804086
+Petroleum,Oceania,2010,2.630093692
+Petroleum,Oceania,2011,2.730286124
+Petroleum,Oceania,2012,2.79787691
+Petroleum,Oceania,2013,2.827560005
+Petroleum,Oceania,2014,2.81833849
+Petroleum,Oceania,2015,2.831023232
+Petroleum,Oceania,2016,2.8412242
+Petroleum,Oceania,2017,2.951992392
+Petroleum,Oceania,2018,3.014554626
+Petroleum,Oceania,2019,2.994763086
+Petroleum,Oceania,2020,2.539752149
+Petroleum,Oceania,2021,2.602292906
+Petroleum,South America,2000,10.625774615
+Petroleum,South America,2001,10.747753464
+Petroleum,South America,2002,10.627186037
+Petroleum,South America,2003,10.562970359
+Petroleum,South America,2004,11.127864111
+Petroleum,South America,2005,11.372679297
+Petroleum,South America,2006,11.768786598
+Petroleum,South America,2007,12.269156328
+Petroleum,South America,2008,12.857700495
+Petroleum,South America,2009,12.681256924
+Petroleum,South America,2010,13.265037915
+Petroleum,South America,2011,13.465650309
+Petroleum,South America,2012,14.102742817
+Petroleum,South America,2013,14.143370641
+Petroleum,South America,2014,14.443263887
+Petroleum,South America,2015,14.253571702
+Petroleum,South America,2016,14.059646285
+Petroleum,South America,2017,13.756155103
+Petroleum,South America,2018,13.487951789
+Petroleum,South America,2019,13.371679704
+Petroleum,South America,2020,11.368246499
+Petroleum,South America,2021,11.955432106
+Petroleum,Total,2000,156.671125917
+Petroleum,Total,2001,157.852214638
+Petroleum,Total,2002,159.348864295
+Petroleum,Total,2003,162.765306751
+Petroleum,Total,2004,169.563812385
+Petroleum,Total,2005,171.642816562
+Petroleum,Total,2006,173.98987618
+Petroleum,Total,2007,176.992808198
+Petroleum,Total,2008,176.062920399
+Petroleum,Total,2009,172.668246714
+Petroleum,Total,2010,178.988282983
+Petroleum,Total,2011,180.246990067
+Petroleum,Total,2012,182.336814394
+Petroleum,Total,2013,184.637086339
+Petroleum,Total,2014,187.264335458
+Petroleum,Total,2015,188.489547143
+Petroleum,Total,2016,194.218024745
+Petroleum,Total,2017,196.802295641
+Petroleum,Total,2018,198.201125991
+Petroleum,Total,2019,197.230134261
+Petroleum,Total,2020,178.963453367
+Petroleum,Total,2021,186.714152466

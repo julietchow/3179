@@ -105,8 +105,8 @@
           "type": "quantitative",
           "scale": {
             "type": "quantize",
-            "scheme": {"name": "yelloworangered", "count": 20},
-            "domain": [0, {"expr": "getMaxValueSignal"}]
+            "scheme": {"name": "goldorange", "count": 20},
+            "domain": [0, 49000]
           },
           "legend": {
             "title": "Energy Consumption Per Capita (Sextillion kWh)",

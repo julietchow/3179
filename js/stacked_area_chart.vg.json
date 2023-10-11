@@ -64,13 +64,34 @@
 
           },
           "legend" : {"title": "Energy Sources (Sextillion kWh)"}
-        },
+        }
+      }
+    },
+    {
+      "encoding": {
         "tooltip": [
           {"field": "Year","type":"temporal","format":"%Y"},
           {"field": "count","title":"Energy Consumption","type":"quantitative","format":".2f"},
           {"field": "Energy Source"}
-        ]
-      }
+        ],
+        "opacity": {
+          "condition": {"param": "hover", "value": 0.3, "empty": false},
+          "value": 0
+        }
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "nearest": true,
+            "fields": ["Year"],
+            "on": "mouseover",
+            "type": "point",
+            "clear": "mouseout"
+          }
+        }
+      ],
+      "mark": {"stroke": "#888", "type": "rule"}
     },
     {
       "data": {"values": [{"anot_x": 1000}]},
@@ -84,6 +105,6 @@
         },
         "color": {"value": "white"}
       }
-  }
+    }
   ]
 }

@@ -24,6 +24,7 @@ reshaped_coal <- coal %>%
   pivot_longer(cols = -c(Continent, Country), names_to = "Year", values_to = "count") %>%
   mutate(Year = as.numeric(Year))
 
+reshaped_coal
 # Delete the "Country" column using subset()
 reshaped_coal <- subset(reshaped_coal, select = -Country)
 
@@ -152,4 +153,4 @@ reshaped_p <- reshaped_p %>%
 # Combine the two tables row-wise
 final_table <- rbind(reshaped_coal, reshaped_ng, reshaped_nr, reshaped_p)
 
-write.csv(final_table, file = "stacked_area_chart.csv", row.names = FALSE)
+write.csv(final_table, file = "stacked_area_chart2.csv", row.names = FALSE)

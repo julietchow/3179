@@ -3,7 +3,7 @@
     "width": 800,
     "height": 600,
     "title": {
-        "text": "Energy Production vs. Energy Consumption Per Capita",
+        "text": "Energy Production vs. Energy Consumption",
         "subtitle": "Data visualized on log-log scale"
     },
     "data": {
@@ -53,9 +53,7 @@
       {"filter": "datum.Population > Population_Above"},
       {"filter": "datum.Total_production> 0.1"},
       {"filter": "datum.Total_Consumption> 0.1"},
-      {
-        "filter": "select_continent == null || datum.Continent == select_continent"
-      }
+      {"filter": "select_continent == null || datum.Continent == select_continent"}
     ],
     "encoding": {
       "x": {
@@ -74,46 +72,47 @@
       }
     },
     "layer": [
-      {
-        "mark": "circle",
-        "encoding": {
-          "size": {
-            "field": "Population",
-            "type": "quantitative",
-            "scale": {
-              "type": "threshold",
-              "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
-              "range": [10, 50, 150, 200, 300, 400]
+        {
+            "mark": "circle",
+            "encoding": {
+            "size": {
+                "field": "Population",
+                "type": "quantitative",
+                "scale": {
+                "type": "threshold",
+                "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
+                "range": [10, 50, 150, 200, 300, 400]
+                },
+                "legend": {"format": ".1s"}
             },
-            "legend": {"format": ".1s"}
+            "color": {
+                "field": "Continent",
+                "type": "nominal",
+                "scale": {
+                "domain": [
+                    "Africa",
+                    "Asia",
+                    "Oceania",
+                    "South America",
+                    "Antarctica",
+                    "Europe",
+                    "North America"
+                ],
+                "range": [
+                    "#e41a1c",
+                    "#984ea3",
+                    "#ff7f00",
+                    "#a6cee3",
+                    "#a65628",
+                    "#377eb8",
+                    "#ee5397"
+                ]
+                }
           },
-          "color": {
-            "field": "Continent",
-            "type": "nominal",
-            "scale": {
-              "domain": [
-                "Africa",
-                "Asia",
-                "Oceania",
-                "South America",
-                "Antarctica",
-                "Europe",
-                "North America"
-              ],
-              "range": [
-                "#e41a1c",
-                "#984ea3",
-                "#ff7f00",
-                "#a6cee3",
-                "#a65628",
-                "#377eb8",
-                "#ee5397"
-              ]
-            }
-          },
-          "opacity": {"value": 0.6},
+            "opacity": {"value": 0.5},
           "tooltip": [
             {"field": "Country", "type": "nominal"},
+            {"field": "Population", "type": "quantitative", "format": ",.2f"},
             {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
             {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
           ]
@@ -133,17 +132,126 @@
           "color": {"value": "black"},
           "opacity": {
             "condition": {
-              "test": "datum['Country'] == 'China' || datum['Country'] == 'Singapore' || datum['Country'] == 'Australia' || datum['Country'] == 'New Zealand' || datum['Country'] == 'Italy' || datum['Country'] == 'Yemen' ||  datum['Country'] == 'United States'",
+              "test": "datum['Country'] == 'Singapore' ||datum['Country'] == 'Angola' ||datum['Country'] == 'China' || datum['Country'] == 'Russia' || datum['Country'] == 'Saudi Arabia' ||  datum['Country'] == 'Australia'",
               "value": 1
             },
             "value": 0
           },
           "tooltip": [
             {"field": "Country", "type": "nominal"},
-            {"field": "Energy Consumption Per Capita (Sextillion kWh)", "type": "quantitative", "format": ",.2f"},
-            {"field": "Energy Production Per Capita (Sextillion kWh)", "type": "quantitative", "format": ",.2f"}
-          ]
+            {"field": "Population", "type": "quantitative", "format": ",.2f"},
+            {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
+            {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+            ]
+         }
+        },
+        {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx": 53,
+              "fontSize": 11.5,
+              "fontStyle": "italic"
+            },
+            "encoding": {
+              "text": {"field": "Country", "type": "nominal"},
+              "color": {"value": "black"},
+              "opacity": {
+                "condition": {
+                  "test": "datum['Country'] == 'Canada'",
+                  "value": 1
+                },
+                "value": 0
+              },
+              "tooltip": [
+                {"field": "Country", "type": "nominal"},
+                {"field": "Population", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+              ]
+            }
+        },
+        {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx": 46,
+              "fontSize": 11.5,
+              "fontStyle": "italic"
+            },
+            "encoding": {
+              "text": {"field": "Country", "type": "nominal"},
+              "color": {"value": "black"},
+              "opacity": {
+                "condition": {
+                  "test": "datum['Country'] == 'Japan'",
+                  "value": 1
+                },
+                "value": 0
+              },
+              "tooltip": [
+                {"field": "Country", "type": "nominal"},
+                {"field": "Population", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+              ]
+            }
+        },
+        {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx": 40,
+              "fontSize": 11.5,
+              "fontStyle": "italic"
+            },
+            "encoding": {
+              "text": {"field": "Country", "type": "nominal"},
+              "color": {"value": "black"},
+              "opacity": {
+                "condition": {
+                  "test": "datum['Country'] == 'India'",
+                  "value": 1
+                },
+                "value": 0
+              },
+              "tooltip": [
+                {"field": "Country", "type": "nominal"},
+                {"field": "Population", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+              ]
+            }
+        },
+        {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx": 83,
+              "fontSize": 11.5,
+              "fontStyle": "italic"
+            },
+            "encoding": {
+              "text": {"field": "Country", "type": "nominal"},
+              "color": {"value": "black"},
+              "opacity": {
+                "condition": {
+                  "test": "datum['Country'] == 'United States'",
+                  "value": 1
+                },
+                "value": 0
+              },
+              "tooltip": [
+                {"field": "Country", "type": "nominal"},
+                {"field": "Population", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+              ]
+            }
         }
-      }
     ]
   }

@@ -42,69 +42,151 @@
   "encoding": {
       "x": {
         "timeUnit": "year", "field": "Year",
-        "axis": {"format": "%Y", "grid": false},
-        "title": "Year",
+        "axis": {"format": "%Y", "grid": false, "title":"Year"},
+        "title": "",
         "type": "temporal"
-      },
-      "y": {
-        "aggregate": "sum",
-        "field": "count",
-        "title": "Energy Consumption Per Capita (Sextillion kWh)"
       }
   },
   "layer":[
-    {
-      "mark" :{"type":"area"},
-      "encoding": {
-        "color": {
-          "field": "Energy Source",
-          "scale": {
-              "domain": ["Coal","Natural Gas","Nuclear & Renewables","Petroleum"],
-              "range":["#fb3c04","#ff9646","#69ccbb","#3c55d1"]
-
+      {
+          "encoding": 
+          {
+              "y": {
+              "aggregate": "sum",
+              "field": "count",
+              "title": "Energy Consumption Per Capita (Sextillion kWh)"
+              },
+              "color": {
+              "field": "Energy Source",
+              "scale": {
+                  "domain": ["Coal","Natural Gas","Nuclear & Renewables","Petroleum"],
+                  "range":["#fb3c04","#ff9646","#69ccbb","#3c55d1"]
+              },
+              "legend" : {"title": "Energy Sources (Sextillion kWh)"}
+              }
           },
-          "legend" : {"title": "Energy Sources (Sextillion kWh)"}
-        }
-      }
-    },
-    {
-      "encoding": {
-        "tooltip": [
-          {"field": "Year","type":"temporal","format":"%Y"},
-          {"field": "count","title":"Energy Consumption","type":"quantitative","format":".2f"},
-          {"field": "Energy Source"}
-        ],
-        "opacity": {
-          "condition": {"param": "hover", "value": 0.3, "empty": false},
-          "value": 0
-        }
+          "layer":
+          [
+              {
+                  "mark": {"type":"area"},
+                  "params": 
+                  [
+                      {
+                          "name": "energy_source",
+                          "select": {"type": "point", "fields": ["Energy Source"]},
+                          "bind": "legend"
+                      }
+                  ],
+                  "encoding":{
+                      "opacity": {
+                          "condition": {
+                              "param": "energy_source", 
+                              "value": 1
+                          },
+                          "value": 0.2
+                      }
+                  }
+              },
+              {
+                  "transform": [{"filter": {"param": "hover", "empty": false}}],
+                  "mark": {"type": "area", "line": false, "point": true},
+                  "encoding": {
+                      "color": {
+                      "field": "Energy Source",
+                      "type": "nominal"
+                      },
+                      "opacity": {
+                          "condition": {
+                              "param": "energy_source", 
+                              "value": 1
+                          },
+                          "value": 0.2
+                      }
+                  }
+              }
+          ]
       },
-      "params": [
-        {
-          "name": "hover",
-          "select": {
-            "nearest": true,
-            "fields": ["Year"],
-            "on": "mouseover",
-            "type": "point",
-            "clear": "mouseout"
+      {
+          "transform": [
+              {
+                  "pivot": "Energy Source",
+                  "value": "count",
+                  "groupby": ["Year"]
+              }
+          ],
+          "mark": "rule",
+          "encoding": {
+              "x":{
+                  "field": "Year",
+                  "axis": {"domainColor": "white", "labelColor": "white", "tickColor": "white"}
+              },
+              "opacity": {
+                  "condition": {
+                      "value": 0.3, 
+                      "param": "hover", 
+                      "empty": false
+                  },
+                  "value": 0
+              },
+              "tooltip": [
+                  {"field": "Year","type":"temporal","format":"%Y"},
+                  {"field": "Coal","type":"quantitative","format":",.2f"},
+                  {"field": "Natural Gas","type":"quantitative","format":",.2f"},
+                  {"field": "Nuclear & Renewables","type":"quantitative","format":",.2f"},
+                  {"field": "Petroleum","type":"quantitative","format":",.2f"}
+              ]
+          },
+          "params": [
+              {
+                  "name": "hover",
+                  "select": {
+                      "type": "point",
+                      "fields": ["Year"],
+                      "nearest": true,
+                      "on": "mouseover",
+                      "clear": "mouseout"
+                  }
+              }
+          ]
+      },
+      {
+          "data": {"values": [{"anot_x": 1000}]},
+          "mark": {"type": "text", "dx": 784, "dy": 0, "fontWeight":"bold"},
+          "encoding": {
+              "text": {"value": "Notable Declines:"},
+              "x": {
+                  "field": "anot_x",
+                  "type": "quantitative",
+                  "axis": null
+              },
+              "color": {"value": "black"}
           }
-        }
-      ],
-      "mark": {"stroke": "#888", "type": "rule"}
-    },
-    {
-      "data": {"values": [{"anot_x": 1000}]},
-      "mark": {"type": "text", "dx": 320, "dy": -20},
-      "encoding": {
-        "text": {"value": "There was a notable decline observed between 2008 and 2009 during the Financial Crisis, as well as between 2019 and 2020 amid the COVID-19 pandemic."},
-        "x": {
-          "field": "anot_x",
-          "type": "quantitative",
-          "axis": null
-        },
-        "color": {"value": "white"}
+      },        
+      {
+          "data": {"values": [{"anot_x": 1000}]},
+          "mark": {"type": "text", "dx": 813, "dy": 15},
+          "encoding": {
+              "text": {"value": "2008-2009 Financial Crisis and"},
+              "x": {
+                  "field": "anot_x",
+                  "type": "quantitative",
+                  "axis": null
+              },
+              "color": {"value": "black"}
+          }
+      },        
+      {
+          "data": {"values": [{"anot_x": 1000}]},
+          "mark": {"type": "text", "dx": 816, "dy": 30},
+          "encoding": {
+              "text": {"value": "2019-2020 COVID-19 Pandemic"},
+              "x": {
+                  "field": "anot_x",
+                  "type": "quantitative",
+                  "axis": null
+              },
+              "color": {"value": "black"}
+          }
       }
-    }
   ]
 }

@@ -2,7 +2,10 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 800,
     "height": 600,
-    "title": "Energy Consumption vs. Energy Production",
+    "title": {
+        "text": "Energy Production vs. Energy Consumption Per Capita",
+        "subtitle": "Data visualized on log-log scale"
+    },
     "data": {
       "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/scatter.csv"
     },
@@ -20,7 +23,6 @@
       },
       {
         "name": "select_continent",
-        "value": "Total",
         "bind": {
           "input": "select",
           "options": [
@@ -59,14 +61,14 @@
       "x": {
         "field": "Total_Consumption",
         "type": "quantitative",
-        "title": "Energy Consumption",
+        "title": "Energy Consumption Per Capita (Sextillion kWh)",
         "axis": {"tickCount": 6},
         "scale": {"type": "log", "domain": [0.1, 10000000]}
       },
       "y": {
         "field": "Total_production",
         "type": "quantitative",
-        "title": "Energy Production",
+        "title": "Energy Production Per Capita (Sextillion kWh)",
         "axis": {"tickCount": 6},
         "scale": {"type": "log", "domain": [0.1, 10000000]}
       }
@@ -112,8 +114,8 @@
           "opacity": {"value": 0.6},
           "tooltip": [
             {"field": "Country", "type": "nominal"},
-            {"field":"Total_Consumption","title": "Energy Consumption Per Capita (Sextillion kWh)", "type": "quantitative", "format": ",.2f"},
-            {"field":"Total_production","title": "Energy Production Per Capita (Sextillion kWh)", "type": "quantitative", "format": ",.2f"}
+            {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
+            {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
           ]
         }
       },

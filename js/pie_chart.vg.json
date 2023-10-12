@@ -4,10 +4,33 @@
     "data": {
         "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/pie_chart.csv"
       },
-    "mark": "arc",
-    "encoding": {
-      "theta": {"field": "value", "type": "quantitative"},
-      "color": {"field": "category", "type": "nominal"}
-    }
-  }
+    "params":[
+        {
+          "name": "select_year",
+          "value" : 2021,
+          "bind": {"input":"range", "min":2000,"max":2021,"step":1,"name":"Year: "}
+        }
+    ],
+    "transform": [
+        {"filter": "datum.Year == select_year"}
+    ],
+    "layer":[
+        {
+            "mark" :{"type":"arc","tooltip":true},
+            "encoding": {
+                "theta": {"field": "Consumption", "type": "quantitative","stack":"normalize"},
+                "color": {
+                    "field": "Energy_Source",
+                    "scale": {
+                        "domain": ["Coal","Natural Gas","Nuclear & Renewables","Petroleum"],
+                        "range":["#FF9F97","#FFCFCB","#FCF4EC","#3B739B"]
+                    },
+                    "opacity":{"value":0.3},
+                    "legend" : {"title": "Energy Sources (Sextillion kWh)"}
+                    }
+            }
+
+        }
+    ]
+}
   

@@ -3,6 +3,11 @@
     "description": "A simple pie chart with embedded data.",
     "data": {
         "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/pie_chart.csv"
+    },
+    "title": {
+        "text": "Energy Consumption Distribution by Source",
+        "fontSize": 14,
+        "fontWeight": "bold"
       },
     "params":[
         {
@@ -18,18 +23,23 @@
         {
             "mark" :{"type":"arc","tooltip":true},
             "encoding": {
-                "theta": {"field": "Consumption", "type": "quantitative","stack":"normalize"},
+                "theta": {"field": "Consumption", "title":"Percentage","type": "quantitative","stack":"normalize","format":".2%"},
                 "color": {
                     "field": "Energy_Source",
+                    "title": "Energy Source",
+                    "type": "nominal",
                     "scale": {
                         "domain": ["Coal","Natural Gas","Nuclear & Renewables","Petroleum"],
                         "range":["#FF9F97","#FFCFCB","#FCF4EC","#3B739B"]
                     },
-                    "opacity":{"value":0.3},
                     "legend" : {"title": "Energy Sources (Sextillion kWh)"}
                     }
+            },
+            "order": {
+                "field": "Consumption",
+                "type": "quantitative",
+                "sort": "descending"
             }
-
         }
     ]
 }

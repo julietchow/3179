@@ -19,54 +19,52 @@
         }
       },
       {
-        "name": "Continent_selection",
+        "name": "select_continent",
+        "value": "Total",
         "bind": {
           "input": "select",
           "options": [
-            null,
-            "North America",
-            "South America",
-            "Europe",
+            "null",
             "Africa",
             "Asia",
-            "Oceania"
+            "Oceania",
+            "South America",
+            "Antarctica",
+            "Europe",
+            "North America"
           ],
           "labels": [
-            "Show All",
-            "North America",
-            "South America",
-            "Europe",
+            "All",
             "Africa",
             "Asia",
-            "Oceania"
+            "Oceania",
+            "South America",
+            "Antarctica",
+            "Europe",
+            "North America"
           ],
-          "name": "Continent Selection: "
+            "name": "Continent : "
         }
       }
     ],
     "transform": [
-      {"filter": "datum.Active > 0"},
-      {"filter": "datum.Deaths > 0"},
       {"filter": "datum.Population > Population_Above"},
       {
-        "filter": "Continent_selection == null || datum.Continent == Continent_selection"
-      },
-      {
-        "calculate": "datum.Confirmed/datum.Population * 10000",
-        "as": "Cases per 10,000 Population"
+        "filter": "select_continent == null || datum.Continent == select_continent"
       }
     ],
     "encoding": {
       "x": {
-        "field": "Confirmed",
+        "field": "Total_Consumption",
         "type": "quantitative",
-        "title": "Confirmed Cases",
+        "title": "Energy Consumption",
         "axis": {"tickCount": 7},
         "scale": {"type": "log", "domain": [1, 10000000]}
       },
       "y": {
-        "field": "Deaths",
+        "field": "Total_production",
         "type": "quantitative",
+        "title": "Energy Production",
         "axis": {"tickCount": 6},
         "scale": {"type": "log", "domain": [1, 1000000]}
       }
@@ -90,35 +88,30 @@
             "type": "nominal",
             "scale": {
               "domain": [
-                "North America",
-                "South America",
-                "Europe",
                 "Africa",
                 "Asia",
-                "Oceania"
+                "Oceania",
+                "South America",
+                "Antarctica",
+                "Europe",
+                "North America"
               ],
               "range": [
-                "#e41a1c",
+                "#bb5353",
                 "#984ea3",
                 "#ff7f00",
                 "#a6cee3",
                 "#377eb8",
-                "#a65628"
+                "#a65628",
+                "f1ceb2"
               ]
             }
           },
           "opacity": {"value": 0.6},
           "tooltip": [
             {"field": "Country", "type": "nominal"},
-            {"field": "Confirmed", "type": "quantitative", "format": ","},
-            {"field": "Active", "type": "quantitative", "format": ","},
-            {"field": "Deaths", "type": "quantitative", "format": ","},
-            {"field": "Recovered", "type": "quantitative", "format": ","},
-            {
-              "field": "Cases per 10,000 Population",
-              "type": "quantitative",
-              "format": ".2f"
-            }
+            {"field": "Energy Consumption Per Capita (Sextillion kWh)", "type": "quantitative", "format": ",.2f"},
+            {"field": "Energy Production Per Capita (Sextillion kWh)", "type": "quantitative", "format": ",.2f"}
           ]
         }
       },
@@ -143,15 +136,8 @@
           },
           "tooltip": [
             {"field": "Country", "type": "nominal"},
-            {"field": "Confirmed", "type": "quantitative", "format": ","},
-            {"field": "Active", "type": "quantitative", "format": ","},
-            {"field": "Deaths", "type": "quantitative", "format": ","},
-            {"field": "Recovered", "type": "quantitative", "format": ","},
-            {
-              "field": "Cases per 10,000 Population",
-              "type": "quantitative",
-              "format": ".2f"
-            }
+            {"field": "Energy Consumption Per Capita (Sextillion kWh)", "type": "quantitative", "format": ",.2f"},
+            {"field": "Energy Production Per Capita (Sextillion kWh)", "type": "quantitative", "format": ",.2f"}
           ]
         }
       }

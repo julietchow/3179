@@ -34,7 +34,7 @@
         ],
           "name": "Continent : "
       }
-      }
+    }
   ],
   "transform": [
       {"filter": "datum.Continent == select_continent"}

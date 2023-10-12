@@ -1,0 +1,110 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800, "height": 300,
+    "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
+    "title": {
+        "text": "Energy Consumption Per Capita (2000 - 2021)",
+        "fontSize": 14
+    },
+    "params":[
+      {
+        "name": "select_continent",
+        "value": "Total",
+        "bind": {
+          "input": "select",
+          "options": [
+            "Total",
+            "Africa",
+            "Asia",
+            "Oceania",
+            "South America",
+            "Antarctica",
+            "Europe",
+            "North America"
+          ],
+          "labels": [
+            "All",
+            "Africa",
+            "Asia",
+            "Oceania",
+            "South America",
+            "Antarctica",
+            "Europe",
+            "North America"
+          ],
+            "name": "Continent : "
+        }
+        }
+    ],
+    "transform": [
+        {"filter": "datum.Continent == select_continent"}
+    ],
+    "encoding": {
+        "x": {
+          "timeUnit": "year", "field": "Year",
+          "axis": {"format": "%Y", "grid": false},
+          "title": "Year",
+          "type": "temporal"
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": "count",
+          "title": "Energy Consumption Per Capita (Sextillion kWh)"
+        }
+    },
+    "layer":[
+      {
+        "mark" :{"type":"area"},
+        "encoding": {
+          "color": {
+            "field": "Energy Source",
+            "scale": {
+                "domain": ["Coal","Natural Gas","Nuclear & Renewables","Petroleum"],
+                "range":["#fb3c04","#ff9646","#69ccbb","#3c55d1"]
+  
+            },
+            "legend" : {"title": "Energy Sources (Sextillion kWh)"}
+          }
+        }
+      },
+      {
+        "encoding": {
+          "tooltip": [
+            {"field": "Year","type":"temporal","format":"%Y"},
+            {"field": "count","title":"Energy Consumption","type":"quantitative","format":".2f"},
+            {"field": "Energy Source"}
+          ],
+          "opacity": {
+            "condition": {"param": "hover", "value": 0.3, "empty": false},
+            "value": 0
+          }
+        },
+        "params": [
+          {
+            "name": "hover",
+            "select": {
+              "nearest": true,
+              "fields": ["Year"],
+              "on": "mouseover",
+              "type": "point",
+              "clear": "mouseout"
+            }
+          }
+        ],
+        "mark": {"stroke": "#888", "type": "rule"}
+      },
+      {
+        "data": {"values": [{"anot_x": 1000}]},
+        "mark": {"type": "text", "dx": 320, "dy": -20},
+        "encoding": {
+          "text": {"value": "There was a notable decline observed between 2008 and 2009 during the Financial Crisis, as well as between 2019 and 2020 amid the COVID-19 pandemic."},
+          "x": {
+            "field": "anot_x",
+            "type": "quantitative",
+            "axis": null
+          },
+          "color": {"value": "white"}
+        }
+      }
+    ]
+  }

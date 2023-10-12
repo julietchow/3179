@@ -2,7 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "",
-    "fontSize": 18
+    "fontSize": 14,
+    "fontWeight": 400
   },
   "width": 800,
   "height": 400,
@@ -104,15 +105,20 @@
           "field": "select_energy",
           "type": "quantitative",
           "scale": {
-            "type": "quantize",
-            "scheme": {"name": "goldorange", "count": 20},
-            "domain": [0, 49000]
+            "type": "quantile",
+            "scheme": {"name": "goldorange", "count": 9},
+            "domain": [0, 500, 1000, 2500, 5000, 10000, 15000, 25000, 35000, 49000]
           },
           "legend": {
             "title": "Energy Consumption Per Capita (Sextillion kWh)",
             "titleLimit": 450,
-            "titleFontSize": 14,
-            "direction": "vertical",
+            "titleFontSize": 12,
+            "titleFontWeight":400,
+            "titleAnchor":"middle",
+            "direction": "horizontal",
+            "orient":"none",
+            "legendX":265, 
+            "legendY":405,
             "format": ".2s"
           }
         },
@@ -124,6 +130,9 @@
           {"field": "nr_consumption", "title": "Neuclear & Renewables", "type": "quantitative","format":".2f"},
           {"field": "p_consumption", "title": "Petroleum", "type": "quantitative","format":".2f"}
         ]
+      },
+      "config": {
+        "legend": {"orient": "bottom", "layout": {"bottom": {"anchor": "middle"}}}
       }
     }
   ]

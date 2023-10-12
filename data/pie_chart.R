@@ -1,0 +1,1 @@
+data <- read.csv("choropleth_map_new.csv")

@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple pie chart with embedded data.",
+    "data": {
+        "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/pie_chart.csv"
+      },
+    "mark": "arc",
+    "encoding": {
+      "theta": {"field": "value", "type": "quantitative"},
+      "color": {"field": "category", "type": "nominal"}
+    }
+  }
+  

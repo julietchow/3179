@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple pie chart with embedded data.",
+    "data": {
+        "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map_new.csv"
+    },
+    "title": {
+        "text": "Top 5 High Energy Consumers",
+        "fontSize": 14,
+        "fontWeight": "bold"
+      },
+    "params":[
+        {
+          "name": "select_year",
+          "value" : 2021,
+          "bind": {"input":"range", "min":2000,"max":2021,"step":1,"name":"Year: "}
+        }
+    ],
+    "transform": [
+        {"filter": "datum.Year == select_year"},
+        {
+            "window": [{
+              "op": "rank",
+              "as": "rank"
+            }],
+            "sort": [
+                {"field": "Year", "order": "descending"},
+                {"field": "total_consumption", "order": "descending"}
+            ]
+        },
+        {"filter": "datum.rank <= 15"}
+    ],
+    "layer":[
+        {
+            "mark" :{"type":"bar"},
+            "encoding":
+            {
+                "x":{
+                    "field": "total_consumption",
+                    "title": "Total Energy Consumption Per Capita (Sextillion kWh)",
+                    "type": "quantitative"
+                },
+                "y":{
+                    "field": "country",
+                    "title":"",
+                    "type": "nominal",
+                    "sort": {
+                        "op": "mean",
+                        "field": "total_consumption",
+                        "order": "descending"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -102,7 +102,7 @@
           "type": "quantitative",
           "scale": {
             "type": "quantile",
-            "scheme": {"name": "yelloworangered", "count": 9},
+            "scheme": {"name": "yelloworangebrown", "count": 9},
             "domain": [0, 500, 1000, 2500, 5000, 10000, 15000, 25000, 35000, 49000]
           },
           "legend": {

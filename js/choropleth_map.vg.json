@@ -8,7 +8,7 @@
   "width": 800,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/s1.csv"
+    "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map_new.csv"
   },
   "projection": {"type": "equalEarth"},
   "params":[
@@ -102,13 +102,13 @@
           "type": "quantitative",
           "scale": {
             "type": "quantile",
-            "scheme": {"name": "goldorange", "count": 9},
+            "scheme": {"name": "yelloworangered", "count": 9},
             "domain": [0, 500, 1000, 2500, 5000, 10000, 15000, 25000, 35000, 49000]
           },
           "legend": {
             "title": "Energy Consumption Per Capita (Sextillion kWh)",
             "titleLimit": 450,
-            "titleFontSize": 11,
+            "titleFontSize": 12,
             "titleFontWeight":400,
             "titleAnchor":"middle",
             "direction": "horizontal",

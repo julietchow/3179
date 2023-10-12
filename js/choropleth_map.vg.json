@@ -92,10 +92,6 @@
         {
           "calculate": "datum[select_sources]",
           "as": "select_energy"
-        },
-        {
-          "calculate": "datum.select_sources === 'total_consumption' ? 49000 : 0",
-          "as": "getMaxValueSignal"
         }
       ],
       "mark": {"type": "geoshape", "stroke": "white"},
@@ -112,7 +108,7 @@
           "legend": {
             "title": "Energy Consumption Per Capita (Sextillion kWh)",
             "titleLimit": 450,
-            "titleFontSize": 12,
+            "titleFontSize": 11,
             "titleFontWeight":400,
             "titleAnchor":"middle",
             "direction": "horizontal",
@@ -124,11 +120,7 @@
         },
         "tooltip": [
           {"field": "country", "type": "nominal", "title": "Country"},
-          {"field": "total_consumption", "title": "Total Consumption", "type": "quantitative", "format":",.2f"},
-          {"field": "coal_consumption", "title": "Coal", "type": "quantitative","format":",.2f"},
-          {"field": "ng_consumption", "title": "Natural Gas", "type": "quantitative","format":",.2f"},
-          {"field": "nr_consumption", "title": "Neuclear & Renewables", "type": "quantitative","format":",.2f"},
-          {"field": "p_consumption", "title": "Petroleum", "type": "quantitative","format":",.2f"}
+          {"field": "select_energy", "type": "nominal", "title": "Consumption Per Capita","format": ",.2f"}
         ]
       },
       "config": {

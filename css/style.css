@@ -8,19 +8,28 @@
 }
 
 .pure-g {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
   }
+
+.t {
+	margin-bottom: 10px;
+}
+
 
 h1 {
 	font-weight: 900;
 	font-size : 60px;
 	text-align: center;
+	color : #eb7116;
+	font-family: 'Lato', sans-serif;
 }
 
 h2 {
 	font-weight: 600;
 	font-size : 30px;
-	text-align: left;
+	text-align: justify;
+	color : #433a3f;
+	font-family: 'Lato', sans-serif;
 }
 
 h4 {
@@ -28,12 +37,14 @@ h4 {
 	font-size : 13px;
 	text-align: center;
 	margin-bottom: 0px;
+	font-family: 'Lato', sans-serif;
 }
 
 p {
 	font-weight: 400;
 	font-size : 17px;
 	text-align: justify;
+	font-family: 'Lato', sans-serif;
 }
 
 body {

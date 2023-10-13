@@ -15,6 +15,9 @@
 	margin-bottom: 10px;
 }
 
+.orange{
+	color : #eb7116;
+}
 
 h1 {
 	font-weight: 900;
@@ -26,7 +29,7 @@ h1 {
 
 h2 {
 	font-weight: 600;
-	font-size : 30px;
+	font-size : 31px;
 	text-align: justify;
 	color : #433a3f;
 	font-family: 'Lato', sans-serif;
@@ -43,6 +46,7 @@ h4 {
 p {
 	font-weight: 400;
 	font-size : 17px;
+	color : #433a3f;
 	text-align: justify;
 	font-family: 'Lato', sans-serif;
 }

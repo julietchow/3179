@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "",
+    "text": "Energy Consumption 2000-2021",
     "fontSize": 14,
-    "fontWeight": 400
+    "fontWeight": "bold"
   },
   "width": 800,
   "height": 400,
@@ -107,6 +107,8 @@
           },
           "legend": {
             "title": "Energy Consumption Per Capita (Sextillion kWh)",
+            "type": "symbol",
+            "gradientLength":450,
             "titleLimit": 450,
             "titleFontSize": 12,
             "titleFontWeight":400,
@@ -122,9 +124,6 @@
           {"field": "country", "type": "nominal", "title": "Country"},
           {"field": "select_energy", "type": "nominal", "title": "Consumption Per Capita","format": ",.2f"}
         ]
-      },
-      "config": {
-        "legend": {"orient": "bottom", "layout": {"bottom": {"anchor": "middle"}}}
       }
     }
   ]

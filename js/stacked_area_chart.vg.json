@@ -60,9 +60,8 @@
               "field": "Energy Source",
               "scale": {
                   "domain": ["Coal","Natural Gas","Nuclear & Renewables","Petroleum"],
-                  "range":["#FF9F97","#FFCFCB","#FCF4EC","#3B739B"]
+                  "range":["#DE6049","#D0DEB4","#FCF4EC","#3B739B"]
               },
-              "opacity":{"value":0.3},
               "legend" : {"title": "Energy Sources (Sextillion kWh)"}
               }
           },

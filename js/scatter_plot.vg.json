@@ -11,17 +11,6 @@
     },
     "params": [
       {
-        "name": "Population_Above",
-        "value": 0,
-        "bind": {
-          "input": "range",
-          "min": 0,
-          "max": 100000000,
-          "step": 1000000,
-          "name": "Minimum Population: "
-        }
-      },
-      {
         "name": "select_continent",
         "bind": {
           "input": "select",
@@ -50,7 +39,6 @@
       }
     ],
     "transform": [
-      {"filter": "datum.Population > Population_Above"},
       {"filter": "datum.Total_production> 0.1"},
       {"filter": "datum.Total_Consumption> 0.1"},
       {"filter": "select_continent == null || datum.Continent == select_continent"}
@@ -99,9 +87,9 @@
                     "North America"
                 ],
                 "range": [
-                    "#e41a1c",
+                    "#b50b0b",
                     "#984ea3",
-                    "#74b898",
+                    "#64a184",
                     "#a6cee3",
                     "#a65628",
                     "#377eb8",
@@ -109,7 +97,7 @@
                 ]
                 }
             },
-            "opacity": {"value": 0.6},
+            "opacity": {"value": 0.7},
             "tooltip": [
                 {"field": "Country", "type": "nominal"},
                 {"field": "Population", "type": "quantitative", "format": ",.2f"},

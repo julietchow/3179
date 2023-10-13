@@ -8,14 +8,14 @@
 }
 
 .pure-g {
-	margin-bottom: 1000px;
+	margin-bottom: 40px;
   }
 
 h1 {
 	font-weight: 900;
-	font-size : 70px
-  }
-  
+	font-size : 70px;
+}
+
 body {
 	background-color: lightgray;
 }

@@ -60,7 +60,7 @@
         "url": "https://raw.githubusercontent.com/julietchow/3179/main/js/oceans.topojson",
         "format": {"type": "topojson", "feature": "oceans"}
       },
-      "mark": {"type": "geoshape", "fill": "lightblue"}
+      "mark": {"type": "geoshape", "fill": "#d3eeff"}
     },
     {
       "data": {
@@ -115,7 +115,7 @@
             "orient":"none",
             "legendX":265, 
             "legendY":405,
-            "format": ".2s"
+            "format": ".0s"
           }
         },
         "tooltip": [

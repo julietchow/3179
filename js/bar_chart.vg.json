@@ -23,7 +23,7 @@
     ],
     "layer":[
         {
-            "mark" :{"type":"bar"},
+            "mark" :{"type":"bar", "color":"#fcc913"},
             "encoding":
             {
                 "x":{

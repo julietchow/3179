@@ -21,8 +21,11 @@ result <- result %>%
   gather(key = "Energy_Source", value = "Consumption", -Year)
 
 # Now, df_long contains the data in the desired format
+result <- result %>%
+  group_by(Year) %>%
+  mutate(Percentage_of_Total = Consumption / sum(Consumption))
 
-result
+
 # Define the file name
 output_file <- "pie_chart.csv"
 

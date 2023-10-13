@@ -101,15 +101,15 @@
                 "range": [
                     "#e41a1c",
                     "#984ea3",
-                    "#ff7f00",
+                    "#74b898",
                     "#a6cee3",
                     "#a65628",
                     "#377eb8",
-                    "#ee5397"
+                    "#fc46aa"
                 ]
                 }
             },
-            "opacity": {"value": 0.5},
+            "opacity": {"value": 0.6},
             "tooltip": [
                 {"field": "Country", "type": "nominal"},
                 {"field": "Population", "type": "quantitative", "format": ",.2f"},

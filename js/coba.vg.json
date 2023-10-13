@@ -1,0 +1,107 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple pie chart with embedded data.",
+    "data": {
+        "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/pie_chart.csv"
+    },
+    "title": {
+        "text": "Energy Consumption Distribution by Source",
+        "fontSize": 14,
+        "fontWeight": "bold"
+      },
+    "params":[
+        {
+          "name": "select_year",
+          "value" : 2021,
+          "bind": {"input":"range", "min":2000,"max":2021,"step":1,"name":"Year: "}
+        }
+    ],
+    "transform": [
+        {"filter": "datum.Year == select_year"}
+    ],
+    "encoding": {
+        "theta": {
+            "field": "Percentage_of_Total", 
+            "title":"Percentage",
+            "type": "quantitative"
+        },
+        "order": {
+            "field": "Consumption",
+            "type": "quantitative",
+            "sort": "descending"
+        },
+        "color": {
+            "field": "Energy_Source",
+            "title": "Energy Source",
+            "type": "nominal",
+            "scale": {
+                "domain": ["Coal","Natural Gas","Nuclear & Renewables","Petroleum"],
+                "range":["#FF9F97","#FFCFCB","#FCF4EC","#3B739B"]
+            },
+            "legend" : null
+        }
+    },
+    "layer": [
+        {
+          "mark": {
+            "type": "arc",
+            "outerRadius": 100
+          }
+        },
+        {
+          "name": "Petroleum",
+          "mark": {
+            "type": "text",
+            "radius": 60,
+            "dy": -10
+          },
+          "encoding": {
+            "text": {"field": "Energy_Source", "type": "nominal"},
+            "color": {"value": "white"},
+            "opacity": {
+                "condition": {
+                "test": "datum['Energy_Source'] == 'Petroleum'",
+                "value": 1
+                },
+                "value": 0
+            }
+          }
+        }, 
+        {
+            "name": "Petroleum Value",
+            "mark": {
+              "type": "text",
+              "radius": 60,
+              "dy": 0
+            },
+            "encoding": {
+              "text": {"field": "Percentage_of_Total", "type": "quantitative","format": ".2%"},
+              "color": {"value": "white"},
+              "opacity": {
+                  "condition": {
+                  "test": "datum['Energy_Source'] == 'Petroleum'",
+                  "value": 1
+                  },
+                  "value": 0
+              }
+            }
+          },   
+        {
+          "name": "******Values_Labels******",
+          "mark": {
+            "type": "text",
+            "radius": 100,
+            "fill":{"expr":"datum.Energy_Source =='Petroleum'?'white':'black'"}
+          },
+          "encoding": {
+            "text": {
+              "field": "Consumption",
+              "type": "quantitative",
+              "stack":"normalize",
+              "format":".2%"
+            }
+          }
+        }
+    ]
+}
+

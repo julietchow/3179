@@ -21,7 +21,7 @@
     ],
     "layer":[
         {
-            "mark" :{"type":"arc","tooltip":true},
+            "mark" :{"type":"arc","tooltip":true, "outerRadius": 90},
             "encoding": {
                 "theta": {"field": "Consumption", "title":"Percentage","type": "quantitative","stack":"normalize","format":".2%"},
                 "color": {

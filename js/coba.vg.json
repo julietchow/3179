@@ -75,7 +75,7 @@
               "dy": 0
             },
             "encoding": {
-              "text": {"field": "Percentage_of_Total", "type": "quantitative","format": ".0%"},
+              "text": {"field": "Percentage_of_Total", "type": "quantitative"},
               "color": {"value": "white"},
               "opacity": {
                   "condition": {
@@ -98,7 +98,7 @@
               "field": "Percentage_of_Total",
               "type": "quantitative",
               "stack":"normalize",
-              "format":".2%"
+              "format":".%"
             }
           }
         }

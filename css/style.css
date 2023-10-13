@@ -1,52 +1,70 @@
-body *{
-	font-family: 'Lato', sans-serif;
-  }
-  
-  h1 {
-	font-weight: 900;
-	font-size: 70px;
-  }
-  
-  h3 {
-	font-weight: 900;
-	font-size: 17.5px;
-  }
-  
-  body {
-	background-color: lightgray;
-  }
-  
-  .page {
-	width: 1200px;
+.page {
+	width: 1300px;
 	background-color: white;
 	margin: auto;
 	padding: 50px;
-	padding-top: 35px;
-  }
-  
-  .vis-container {
-	width: 100%;
-  }
-  
-  .description h2,
-  h1 {
-	margin-top: 0px;
-  }
-  
-  .description-right {
-	padding-left: 20px;
-	text-align: justify;
-  }
-  
-  .description-left {
-	padding-right: 50px;
-	text-align: justify;
-  }
-  
-  .pure-g {
+	padding-top: 30px;
+	font-family: 'Lato', sans-serif;
+}
+
+.pure-g {
 	margin-bottom: 40px;
   }
+
+h1 {
+	font-weight: 900;
+	font-size : 60px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 600;
+	font-size : 30px;
+	text-align: left;
+}
+
+h4 {
+	font-weight: 400;
+	font-size : 13px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+p {
+	font-weight: 400;
+	font-size : 17px;
+	text-align: justify;
+}
+
+body {
+	background-color: lightgray;
+}
   
-  .small-font {
+.vis-container {
+	width: 100%;
+}
+
+.map-container {
+	width: 100%;
+
+}
+
+.description h2,
+h1 {
+	margin-top: 0px;
+}
+
+.description-right {
+	padding-left: 190px;
+	text-align: justify;
+
+}
+  
+.description-left {
+	padding-right: 257px;
+	text-align: justify;
+}
+  
+.small-font {
 	font-size: 14px;
-  }
+}

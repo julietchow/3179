@@ -5,7 +5,7 @@
     "fontSize": 14,
     "fontWeight": "bold"
   },
-  "width": 800,
+  "width": 1100,
   "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map_new.csv"

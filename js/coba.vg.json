@@ -26,7 +26,7 @@
             "type": "quantitative"
         },
         "order": {
-            "field": "Consumption",
+            "field": "Percentage_of_Total",
             "type": "quantitative",
             "sort": "descending"
         },
@@ -75,7 +75,7 @@
               "dy": 0
             },
             "encoding": {
-              "text": {"field": "Percentage_of_Total", "type": "quantitative","format": ".2%"},
+              "text": {"field": "Percentage_of_Total", "type": "quantitative","format": ".0%"},
               "color": {"value": "white"},
               "opacity": {
                   "condition": {
@@ -95,7 +95,7 @@
           },
           "encoding": {
             "text": {
-              "field": "Consumption",
+              "field": "Percentage_of_Total",
               "type": "quantitative",
               "stack":"normalize",
               "format":".2%"

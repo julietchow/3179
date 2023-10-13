@@ -1,46 +1,52 @@
-.page {
-	width: 1000px;
+body *{
+	font-family: 'Lato', sans-serif;
+  }
+  
+  h1 {
+	font-weight: 900;
+	font-size: 70px;
+  }
+  
+  h3 {
+	font-weight: 900;
+	font-size: 17.5px;
+  }
+  
+  body {
+	background-color: lightgray;
+  }
+  
+  .page {
+	width: 1200px;
 	background-color: white;
 	margin: auto;
 	padding: 50px;
 	padding-top: 35px;
-	font-family: 'Lato', sans-serif;
-}
-
-.pure-g {
-	margin-bottom: 40px;
   }
-
-h1 {
-	font-weight: 900;
-	font-size : 60px;
-	text-align: center;
-	margin-left: 5px
-}
-
-body {
-	background-color: lightgray;
-}
   
-.vis-container {
+  .vis-container {
 	width: 100%;
-}
+  }
   
-.description h2,
-h1 {
+  .description h2,
+  h1 {
 	margin-top: 0px;
-}
-
-.description-right {
+  }
+  
+  .description-right {
 	padding-left: 20px;
 	text-align: justify;
-}
+  }
   
-.description-left {
-	padding-right: 20px;
+  .description-left {
+	padding-right: 50px;
 	text-align: justify;
-}
+  }
   
-.small-font {
+  .pure-g {
+	margin-bottom: 40px;
+  }
+  
+  .small-font {
 	font-size: 14px;
-}
+  }

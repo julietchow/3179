@@ -1,46 +1,44 @@
 .page {
-	width: 1000px;
+	width: 1100px;
 	background-color: white;
 	margin: auto;
 	padding: 50px;
-	padding-top: 30px;
+	padding-top: 35px;
 	font-family: 'Lato', sans-serif;
 }
-  
+
+.pure-g {
+	margin-bottom: 1000px;
+  }
+
 h1 {
 	font-weight: 900;
+	font-size : 70px
   }
   
-  body {
+body {
 	background-color: lightgray;
-  }
+}
   
-
-  
-  .vis-container {
+.vis-container {
 	width: 100%;
-  }
+}
   
-  .description h2,
-  h1 {
+.description h2,
+h1 {
 	margin-top: 0px;
-	text-align: center;
-	padding-left: 50px;
-	left: 100px;
-  }
-  
-  .description-right {
+}
+
+.description-right {
 	padding-left: 20px;
-  }
+	text-align: justify;
+}
   
-  .description-left {
+.description-left {
 	padding-right: 20px;
-  }
+	text-align: justify;
+}
   
-  .pure-g {
-	margin-bottom: 40px;
-  }
-  
-  .small-font {
+.small-font {
 	font-size: 14px;
-  }
+}

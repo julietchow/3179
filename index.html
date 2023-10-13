@@ -18,6 +18,7 @@
   <div id="stacked_area_chart"></div>
   <div id="scatter_plot"></div>
   <div id="pie_chart"></div>
+  <div id="bar_chart"></div>
 
   <script type="text/javascript">
     var spec1 = "js/choropleth_map.vg.json";
@@ -35,8 +36,13 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec3 = "js/pie_chart.vg.json";
+    var spec4 = "js/pie_chart.vg.json";
     vegaEmbed('#pie_chart', spec3).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec5 = "js/bar_chart.vg.json";
+    vegaEmbed('#bar_chart', spec3).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 

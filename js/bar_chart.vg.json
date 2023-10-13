@@ -2,10 +2,10 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple pie chart with embedded data.",
     "data": {
-        "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map_new.csv"
+        "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/c.csv"
     },
     "title": {
-        "text": "Top 5 Energy Consumers",
+        "text": "Top 10 Energy Consumers",
         "fontSize": 14,
         "fontWeight": "bold"
       },
@@ -18,16 +18,8 @@
     ],
     "transform": [
         {"filter": "datum.Year == select_year"},
-        {
-            "window": [{
-              "op": "rank",
-              "as": "rank"
-            }],
-            "sort": [
-                {"field": "total_consumption", "order": "descending"}
-            ]
-        },
-        {"filter": "datum.rank <= 5"}
+        {"window": [{"op": "count", "as": "count"}]},
+        {"filter": "datum.count <= 10"}
     ],
     "layer":[
         {
@@ -44,12 +36,16 @@
                     "title":"",
                     "type": "nominal",
                     "sort": {
-                        "op": "average",
                         "field": "total_consumption",
                         "order": "descending"
                     }
-                }
+                },
+                "tooltip":
+                [
+                    {"field": "total_consumption", "title": "Consumption Per Capita", "type": "quantitative","format":",.2f"}
+                ]
             }
+
         }
     ]
 }

@@ -9,8 +9,7 @@
     "title": {
         "text": "Top 8 Energy Consumers",
         "subtitle":" ",
-        "fontSize": 14,
-        "fontWeight": "bold"
+        "fontSize": 14
       },
     "params":[
         {

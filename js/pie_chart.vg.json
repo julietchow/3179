@@ -7,8 +7,7 @@
     "title": {
         "text": "Energy Consumption Distribution",
         "subtitle":" ",
-        "fontSize": 14,
-        "fontWeight": "bold"
+        "fontSize": 14
       },
     "params":[
         {

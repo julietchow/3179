@@ -4,7 +4,8 @@
     "height": 470,
     "title": {
         "text": "Production Per Capita vs. Consumption Per Capita",
-        "subtitle": "Data visualized on log-log scale"
+        "subtitle": "Data visualized on log-log scale",
+        "fontSize":14
     },
     "data": {
       "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/consumption_production.csv"

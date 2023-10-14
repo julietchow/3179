@@ -52,7 +52,7 @@
       </div>
       <div class="pure-u-2-3">
         <br>
-        <div id="line_chart" class="line-container"></div>
+        <div id="line_stacked_area_chart" class="line-container"></div>
       </div>
     </div>
 
@@ -115,7 +115,7 @@
           <p>
             In our analysis, we employed a <b class=orange>scatter plot</b> that charts energy production versus energy consumption per capita, and we integrated a continent drop-down list feature for a <b class=orange>comprehensive</b> exploration. 
             <br><br>To interpret the scatter plot effectively, we considered the position of data points concerning the <b class=orange>diagonal</b> line. If a data point appears <b class=orange>above</b> this line, it signifies a country that efficiently produces more energy than it consumes, reflecting a <b class=orange>sustainable</b> energy model. 
-            <br><br>Moreover, <b class=orange>leading global energy consumers</b> show a <b class=orange>remarkable balance</b> between energy consumption and production, reflecting a strong energy management approach.
+            <br><br>Moreover, most of <b class=orange>leading global energy consumers</b> show a <b class=orange>remarkable balance</b> between energy consumption and production, reflecting a strong energy management approach.
             Notably, <b class=orange>Angola</b> emerges as a remarkable outlier, demonstrating an excess in energy production compared to consumption, indicating untapped energy potential or significant energy exports.
             <br><br>Yet, some nations, like <b class=orange>Singapore</b> and <b class=orange>Hong Kong</b>, grapple with energy deficits, relying on imports due to consumption exceeding production.
             These insights from our scatter plot provide a <b class=orange>valuable lens</b> to evaluate countries' energy efficiency, sustainability, and their positions within the global energy landscape.
@@ -141,8 +141,8 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec2 = "js/line_chart.vg.json";
-    vegaEmbed('#line_chart', spec2).then(function(result) {
+    var spec2 = "js/line_stacked_area_chart.vg.json";
+    vegaEmbed('#line_stacked_area_chart', spec2).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 

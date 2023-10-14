@@ -46,14 +46,14 @@
       "x": {
         "field": "Total_Consumption",
         "type": "quantitative",
-        "title": "Consumption Per Capita Per Capita (Sextillion kWh)",
+        "title": "Energy Consumption Per Capita (Sextillion kWh)",
         "axis": {"tickCount": 6},
         "scale": {"type": "log", "domain": [1, 10000000]}
       },
       "y": {
         "field": "Total_production",
         "type": "quantitative",
-        "title": "Production Per Capita Per Capita (Sextillion kWh)",
+        "title": "Energy Production Per Capita (Sextillion kWh)",
         "axis": {"tickCount": 6},
         "scale": {"type": "log", "domain": [1, 10000000]}
       }

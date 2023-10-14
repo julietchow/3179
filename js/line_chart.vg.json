@@ -43,7 +43,8 @@
                 "subtitle": "Utilize this chart to choose a time range",
                 "fontSize": 14
             },
-            "mark":"line",
+            "mark": {"type":"line",
+            "color": "#eb7116"},
             "params": [
                 {
                   "name": "brush",
@@ -61,8 +62,9 @@
                     "field": "count", 
                     "type": "quantitative",
                     "title": "Energy Consumption Per Capita (Sextillion kWh)"
-                }     
-            }
+                }
+
+            }  
         },
         {
           "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
@@ -72,36 +74,6 @@
             "text": "Energy Consumption by Energy Source",
             "fontSize": 14
           },
-          "params":[
-            {
-              "name": "select_continent",
-              "value": "Total",
-              "bind": {
-                "input": "select",
-                "options": [
-                  "Total",
-                  "Africa",
-                  "Asia",
-                  "Oceania",
-                  "South America",
-                  "Antarctica",
-                  "Europe",
-                  "North America"
-                ],
-                "labels": [
-                  "All",
-                  "Africa",
-                  "Asia",
-                  "Oceania",
-                  "South America",
-                  "Antarctica",
-                  "Europe",
-                  "North America"
-                ],
-                  "name": "Continent : "
-              }
-            }
-          ],
         "transform": [
             {"filter": "datum.Continent == select_continent"}
         ],

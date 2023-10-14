@@ -64,6 +64,12 @@ body {
 
 }
 
+.line-container {
+	width: 100%;
+	margin-left: 50px;
+
+}
+
 .description h2,
 h1 {
 	margin-top: 0px;
@@ -76,7 +82,9 @@ h1 {
 }
   
 .description-left {
-	padding-right: 257px;
+	width: 600;
+	height:auto;
+	padding-right: 0px;
 	text-align: justify;
 }
   

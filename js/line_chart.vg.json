@@ -36,15 +36,14 @@
     ],
     "vconcat":[
         {
-            "width": 800, 
+            "width": 750, 
             "height": 250,
             "title": {
                 "text": "Total Energy Consumption",
                 "subtitle": "Utilize this chart to choose a time range",
                 "fontSize": 14
             },
-            "mark": {"type":"line",
-            "color": "#eb7116"},
+            "mark": {"type":"line","color": "#eb7116"},
             "params": [
                 {
                   "name": "brush",
@@ -55,7 +54,7 @@
                 "x": {
                     "field":"Year",
                     "type":"temporal",
-                    "axis": {"title": ""}
+                    "axis": {"title": "","grid": false}
                 },
                 "y": {
                     "aggregate": "sum",
@@ -64,11 +63,11 @@
                     "title": "Energy Consumption Per Capita (Sextillion kWh)"
                 }
 
-            }  
+            }
         },
         {
           "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
-          "width": 800, 
+          "width": 750, 
           "height": 300, 
           "title": {
             "text": "Energy Consumption by Energy Source",
@@ -106,7 +105,7 @@
                         "titleAnchor":"middle",
                         "orient": "none",
                         "direction": "horizontal",
-                        "legendX": 244,
+                        "legendX": 192,
                         "legendY": 660
                     }
                   }
@@ -196,42 +195,17 @@
               ]
             },
             {
-              "data": {"values": [{"anot_x": 1000}]},
-              "mark": {"type": "text", "dx": 784, "dy": 0, "fontWeight":"bold"},
+              "data": {"values": [{"anot_x": 0}]},
+              "mark": {"type": "text", "dx": 0, "dy":120, "fontWeight":"bold"},
               "encoding": {
-                "text": {"value": "Notable Declines:"},
+                "text": {"value": "Notable declines in 2008-2009 (Financial Crisis) and 2019-2000 (COVID-19 pandemic)"},
                 "x": {
                   "field": "anot_x",
                   "type": "quantitative",
                   "axis": null
                 },
-                "color": {"value": "black"}
-              }
-            },        
-            {
-              "data": {"values": [{"anot_x": 1000}]},
-              "mark": {"type": "text", "dx": 813, "dy": 15},
-              "encoding": {
-                "text": {"value": "2008-2009 Financial Crisis and"},
-                "x": {
-                  "field": "anot_x",
-                  "type": "quantitative",
-                  "axis": null
-                },
-                "color": {"value": "black"}
-              }
-            },        
-            {
-              "data": {"values": [{"anot_x": 1000}]},
-              "mark": {"type": "text", "dx": 816, "dy": 30},
-              "encoding": {
-                "text": {"value": "2019-2020 COVID-19 Pandemic"},
-                "x": {
-                  "field": "anot_x",
-                  "type": "quantitative",
-                  "axis": null
-                },
-                "color": {"value": "black"}
+
+                "color": {"value": "white"}
               }
             }
           ]

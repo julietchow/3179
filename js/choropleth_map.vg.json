@@ -2,10 +2,11 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Energy Consumption 2000-2021",
+    "subtitle":" ",
     "fontSize": 14
   },
   "width": 775,
-  "height": 400,
+  "height": 350,
   "data": {
     "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map_new.csv"
   },
@@ -115,7 +116,7 @@
             "direction": "horizontal",
             "orient":"none",
             "legendX":265, 
-            "legendY":405,
+            "legendY":355,
             "format": ".0s"
           }
         },
@@ -125,5 +126,12 @@
         ]
       }
     }
-  ]
+  ],
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
+}
 }

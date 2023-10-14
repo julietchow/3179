@@ -1,9 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 600,
+    "width": 598,
+    "height": 400,
     "title": {
-        "text": "Energy Production vs. Energy Consumption",
+        "text": "Production Per Capita vs. Consumption Per Capita",
         "subtitle": "Data visualized on log-log scale"
     },
     "data": {
@@ -39,24 +39,24 @@
       }
     ],
     "transform": [
-      {"filter": "datum.Total_production> 0.1"},
-      {"filter": "datum.Total_Consumption> 0.1"},
+      {"filter": "datum.Total_production> 1"},
+      {"filter": "datum.Total_Consumption> 1"},
       {"filter": "select_continent == null || datum.Continent == select_continent"}
     ],
     "encoding": {
       "x": {
         "field": "Total_Consumption",
         "type": "quantitative",
-        "title": "Energy Consumption Per Capita (Sextillion kWh)",
+        "title": "Consumption Per Capita Per Capita (Sextillion kWh)",
         "axis": {"tickCount": 6},
-        "scale": {"type": "log", "domain": [0.1, 10000000]}
+        "scale": {"type": "log", "domain": [1, 10000000]}
       },
       "y": {
         "field": "Total_production",
         "type": "quantitative",
-        "title": "Energy Production Per Capita (Sextillion kWh)",
+        "title": "Production Per Capita Per Capita (Sextillion kWh)",
         "axis": {"tickCount": 6},
-        "scale": {"type": "log", "domain": [0.1, 10000000]}
+        "scale": {"type": "log", "domain": [1, 10000000]}
       }
     },
     "layer": [
@@ -101,8 +101,8 @@
             "tooltip": [
                 {"field": "Country", "type": "nominal"},
                 {"field": "Population", "type": "quantitative", "format": ",.2f"},
-                {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
-                {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+                {"field":"Total_Consumption","title": "Consumption Per Capita", "type": "quantitative", "format": ",.2f"},
+                {"field":"Total_production","title": "Production Per Capita", "type": "quantitative", "format": ",.2f"}
             ]
           }
         },
@@ -128,8 +128,8 @@
             "tooltip": [
                 {"field": "Country", "type": "nominal"},
                 {"field": "Population", "type": "quantitative", "format": ",.2f"},
-                {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
-                {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+                {"field": "Total_Consumption","title": "Consumption Per Capita", "type": "quantitative", "format": ",.2f"},
+                {"field": "Total_production","title": "Production Per Capita", "type": "quantitative", "format": ",.2f"}
                 ]
             }
             },
@@ -155,8 +155,8 @@
                 "tooltip": [
                     {"field": "Country", "type": "nominal"},
                     {"field": "Population", "type": "quantitative", "format": ",.2f"},
-                    {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
-                    {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+                    {"field": "Total_Consumption","title": "Consumption Per Capita", "type": "quantitative", "format": ",.2f"},
+                    {"field": "Total_production","title": "Production Per Capita", "type": "quantitative", "format": ",.2f"}
                 ]
                 }
             },
@@ -182,8 +182,8 @@
                 "tooltip": [
                     {"field": "Country", "type": "nominal"},
                     {"field": "Population", "type": "quantitative", "format": ",.2f"},
-                    {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
-                    {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+                    {"field":"Total_Consumption","title": "Consumption Per Capita", "type": "quantitative", "format": ",.2f"},
+                    {"field":"Total_production","title": "Production Per Capita", "type": "quantitative", "format": ",.2f"}
                 ]
                 }
             },
@@ -209,37 +209,37 @@
                 "tooltip": [
                     {"field": "Country", "type": "nominal"},
                     {"field": "Population", "type": "quantitative", "format": ",.2f"},
-                    {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
-                    {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
+                    {"field":"Total_Consumption","title": "Consumption Per Capita", "type": "quantitative", "format": ",.2f"},
+                    {"field":"Total_production","title": "Production Per Capita", "type": "quantitative", "format": ",.2f"}
                 ]
                 }
             },
             {
-                "mark": {
-                "type": "text",
-                "align": "right",
-                "baseline": "middle",
-                "dx": 83,
-                "fontSize": 11.5,
-                "fontStyle": "italic"
-                },
-                "encoding": {
-                "text": {"field": "Country", "type": "nominal"},
-                "color": {"value": "black"},
-                "opacity": {
-                    "condition": {
-                    "test": "datum['Country'] == 'United States'",
-                    "value": 1
-                    },
-                    "value": 0
-                },
-                "tooltip": [
-                    {"field": "Country", "type": "nominal"},
-                    {"field": "Population", "type": "quantitative", "format": ",.2f"},
-                    {"field":"Total_Consumption","title": "Energy Consumption", "type": "quantitative", "format": ",.2f"},
-                    {"field":"Total_production","title": "Energy Production", "type": "quantitative", "format": ",.2f"}
-                ]
-                }
-            }
+              "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx": 80,
+              "fontSize": 11.5,
+              "fontStyle": "italic"
+              },
+              "encoding": {
+              "text": {"field": "Country", "type": "nominal"},
+              "color": {"value": "black"},
+              "opacity": {
+                  "condition": {
+                  "test": "datum['Country'] == 'United States'",
+                  "value": 1
+                  },
+                  "value": 0
+              },
+              "tooltip": [
+                  {"field": "Country", "type": "nominal"},
+                  {"field": "Population", "type": "quantitative", "format": ",.2f"},
+                  {"field":"Total_Consumption","title": "Consumption Per Capita", "type": "quantitative", "format": ",.2f"},
+                  {"field":"Total_production","title": "Production Per Capita", "type": "quantitative", "format": ",.2f"}
+              ]
+              }
+          }
     ]
 }

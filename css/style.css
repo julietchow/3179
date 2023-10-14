@@ -8,7 +8,7 @@
 }
 
 .pure-g {
-	margin-bottom: 14px;
+	margin-bottom: 30px;
   }
 
 .t {
@@ -17,6 +17,10 @@
 
 .orange{
 	color : #eb7116;
+}
+
+hr{
+	border-top: 2px solid rgb(63, 63, 63);
 }
 
 h1 {
@@ -43,9 +47,17 @@ h4 {
 	font-family: 'Lato', sans-serif;
 }
 
+h5 {
+	font-weight: 900;
+	font-size : 1px;
+	text-align: center;
+	color : #eb7116;
+	font-family: 'Lato', sans-serif;
+}
+
 h6 {
 	font-weight: 900;
-	font-size : 2px;
+	font-size : 1px;
 	text-align: center;
 	color : #eb7116;
 	font-family: 'Lato', sans-serif;
@@ -81,6 +93,12 @@ body {
 .pie-container {
 	width: 100%;
 	margin-left: 98px;
+
+}
+
+.bar-container {
+	width: 100%;
+	margin-left: 230px;
 
 }
 

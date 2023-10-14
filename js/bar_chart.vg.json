@@ -1,11 +1,14 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple pie chart with embedded data.",
+    "width":692,
+    "height":265,
     "data": {
         "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/c.csv"
     },
     "title": {
-        "text": "Top 10 Energy Consumers",
+        "text": "Top 8 Energy Consumers",
+        "subtitle":" ",
         "fontSize": 14,
         "fontWeight": "bold"
       },
@@ -19,7 +22,7 @@
     "transform": [
         {"filter": "datum.Year == select_year"},
         {"window": [{"op": "count", "as": "count"}]},
-        {"filter": "datum.count <= 10"}
+        {"filter": "datum.count <= 8"}
     ],
     "layer":[
         {
@@ -29,7 +32,8 @@
                 "x":{
                     "field": "total_consumption",
                     "title": "Total Energy Consumption Per Capita (Sextillion kWh)",
-                    "type": "quantitative"
+                    "type": "quantitative",
+                    "axis":{"grid": false, "format":".2s"}
                 },
                 "y":{
                     "field": "country",
@@ -47,5 +51,12 @@
             }
 
         }
-    ]
+    ],
+    "config": {
+        "style": {
+          "cell": {
+            "stroke": "transparent"
+          }
+        }
+    }
 }

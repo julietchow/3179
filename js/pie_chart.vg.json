@@ -6,6 +6,7 @@
     },
     "title": {
         "text": "Energy Consumption Distribution",
+        "subtitle":" ",
         "fontSize": 14,
         "fontWeight": "bold"
       },
@@ -21,7 +22,7 @@
     ],
     "layer":[
         {
-            "mark" :{"type":"arc", "tooltip":true,"outerRadius": 100},
+            "mark" :{"type":"arc","outerRadius": 100},
             "encoding": {
                 "theta": {"field": "Percentage_of_Total", "title":"Percentage","type": "quantitative"},
                 "color": {

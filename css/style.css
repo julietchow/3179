@@ -45,7 +45,7 @@ h4 {
 
 h6 {
 	font-weight: 900;
-	font-size : 11.5px;
+	font-size : 2px;
 	text-align: center;
 	color : #eb7116;
 	font-family: 'Lato', sans-serif;
@@ -75,6 +75,12 @@ body {
 .line-container {
 	width: 100%;
 	margin-left: 50px;
+
+}
+
+.pie-container {
+	width: 100%;
+	margin-left: 98px;
 
 }
 

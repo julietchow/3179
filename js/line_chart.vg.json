@@ -37,7 +37,7 @@
     "vconcat":[
         {
             "width": 750, 
-            "height": 210,
+            "height": 220,
             "title": {
                 "text": "Total Energy Consumption",
                 "subtitle": "Utilize this chart to choose a time range",
@@ -74,7 +74,7 @@
         {
           "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
           "width": 750, 
-          "height": 230, 
+          "height": 328, 
           "title": {
             "text": "Energy Consumption by Energy Source",
             "fontSize": 14
@@ -109,10 +109,11 @@
                     "legend" : {
                         "title": "",
                         "titleAnchor":"middle",
+                        "titleFontSize":11,
                         "orient": "none",
                         "direction": "horizontal",
-                        "legendX": 192,
-                        "legendY": 560
+                        "legendX": 218,
+                        "legendY": 660
                     }
                   }
                 },
@@ -202,7 +203,7 @@
             },
             {
               "data": {"values": [{"anot_x": 0}]},
-              "mark": {"type": "text", "dx": 0, "dy": 90, "fontWeight":"bold"},
+              "mark": {"type": "text", "dx": 0, "dy": 135, "fontWeight":"bold"},
               "encoding": {
                 "text": {"value": "Notable declines in 2008-2009 (Financial Crisis) and 2019-2000 (COVID-19 pandemic)"},
                 "x": {

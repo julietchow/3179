@@ -2,8 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Energy Consumption 2000-2021",
-    "fontSize": 15,
-    "fontWeight": "normal"
+    "fontSize": 14
   },
   "width": 775,
   "height": 400,
@@ -110,7 +109,7 @@
             "type": "symbol",
             "gradientLength":450,
             "titleLimit": 450,
-            "titleFontSize": 12,
+            "titleFontSize": 11,
             "titleFontWeight":400,
             "titleAnchor":"middle",
             "direction": "horizontal",

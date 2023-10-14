@@ -5,7 +5,7 @@
         "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/pie_chart.csv"
     },
     "title": {
-        "text": "Energy Consumption Distribution by Source",
+        "text": "Energy Consumption Distribution",
         "fontSize": 14,
         "fontWeight": "bold"
       },
@@ -21,7 +21,7 @@
     ],
     "layer":[
         {
-            "mark" :{"type":"arc", "tooltip":true,"outerRadius": 105},
+            "mark" :{"type":"arc", "tooltip":true,"outerRadius": 100},
             "encoding": {
                 "theta": {"field": "Percentage_of_Total", "title":"Percentage","type": "quantitative"},
                 "color": {
@@ -214,6 +214,13 @@
                 }
               }
           }
-    ]
+    ],
+    "config": {
+        "style": {
+          "cell": {
+            "stroke": "transparent"
+          }
+        }
+    }
 }
   

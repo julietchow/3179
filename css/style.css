@@ -19,6 +19,14 @@
 	color : #eb7116;
 }
 
+b{
+	font-weight: 600;
+	font-size : 17px;
+	color : #433a3f;
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+}
+
 hr{
 	border-top: 2px solid rgb(63, 63, 63);
 }

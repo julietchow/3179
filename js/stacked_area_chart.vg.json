@@ -3,7 +3,7 @@
   "width": 800, "height": 300,
   "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
   "title": {
-      "text": "Energy Consumption Per Capita (2000 - 2021)",
+      "text": "Energy Consumption by Energy Source",
       "fontSize": 14
   },
   "params":[

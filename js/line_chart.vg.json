@@ -1,0 +1,21 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800, "height": 300,
+    "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
+    "vconcat":{
+        "width": 800, 
+        "height": 300,
+        "mark":"line",
+        "encoding": {
+            "x": {
+                "field":"Year",
+                "type":"temporal",
+                "scale": {"domain": {"param": "brush"}},
+                "axis": {"title": ""}
+            },
+            "y": {"field": "count", "type": "quantitative"}
+                
+            }
+        }
+    }
+}

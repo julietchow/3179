@@ -42,7 +42,7 @@
                 "fontSize": 14
             },
 
-            "mark": {"type":"line","color": "#eb7116"},
+            "mark": {"type":"line","color": "#fcc913"},
             "params": [
                 {
                   "name": "brush",

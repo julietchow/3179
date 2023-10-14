@@ -8,3 +8,4 @@ result <- data %>%
   summarise(Total_Energy_Consumption = sum(count))
 
 write.csv(result, "line_chart.csv", row.names = FALSE)
+

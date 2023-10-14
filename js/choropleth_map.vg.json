@@ -6,7 +6,7 @@
     "fontSize": 14
   },
   "width": 775,
-  "height": 350,
+  "height": 340,
   "data": {
     "url": "https://raw.githubusercontent.com/julietchow/3179/main/data/choropleth_map_new.csv"
   },
@@ -116,7 +116,7 @@
             "direction": "horizontal",
             "orient":"none",
             "legendX":265, 
-            "legendY":355,
+            "legendY":347,
             "format": ".0s"
           }
         },

@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 598,
-    "height": 400,
+    "height": 470,
     "title": {
         "text": "Production Per Capita vs. Consumption Per Capita",
         "subtitle": "Data visualized on log-log scale"
@@ -120,7 +120,7 @@
             "color": {"value": "black"},
             "opacity": {
                 "condition": {
-                "test": "datum['Country'] == 'Singapore' ||datum['Country'] == 'Angola' ||datum['Country'] == 'China' || datum['Country'] == 'Russia' || datum['Country'] == 'Saudi Arabia' ||  datum['Country'] == 'Australia'",
+                "test": "datum['Country'] == 'Hong Kong' || datum['Country'] == 'Singapore' || datum['Country'] == 'Angola' ||datum['Country'] == 'China' || datum['Country'] == 'Russia' || datum['Country'] == 'Saudi Arabia' ||  datum['Country'] == 'Australia'",
                 "value": 1
                 },
                 "value": 0

@@ -72,7 +72,7 @@
         {
           "data": {"url":"https://raw.githubusercontent.com/julietchow/3179/main/data/stacked_area_chart.csv"},
           "width": 750, 
-          "height": 310, 
+          "height": 295, 
           "title": {
             "text": "Energy Consumption by Energy Source",
             "fontSize": 14
@@ -111,7 +111,7 @@
                         "orient": "none",
                         "direction": "horizontal",
                         "legendX": 218,
-                        "legendY": 646
+                        "legendY": 630
                     }
                   }
                 },

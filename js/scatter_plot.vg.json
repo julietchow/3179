@@ -61,6 +61,13 @@
     "layer": [
         {
             "mark": "circle",
+            "params":[
+              {
+                "name": "continent_leg",
+                "select": {"type": "point", "fields": ["Continent"]},
+                "bind": "legend"
+              }
+            ],
             "encoding": {
             "size": {
                 "field": "Population",
@@ -94,7 +101,13 @@
                 ]
                 }
             },
-            "opacity": {"value": 0.7},
+            "opacity": {
+              "condition": {
+                "param": "continent_leg", 
+                "value": 0.7
+              },
+              "value": 0.2
+            },
             "tooltip": [
                 {"field": "Country", "type": "nominal"},
                 {"field": "Population", "type": "quantitative", "format": ",.2f"},
